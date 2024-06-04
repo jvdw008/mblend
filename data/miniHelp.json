@@ -1,0 +1,2643 @@
+[
+    {
+        "keyword" : "ACos",
+        "title" : "Function ACos : Float ( x:Float )",
+        "description" : "Returns the arc cosine of x, in degrees."
+    },
+    {
+        "keyword" : "ACosr",
+        "title" : "Function ACosr : Float ( x:Float )",
+        "description" : "Returns the arc cosine of x, in radians."
+    },
+    {
+        "keyword" : "ASin",
+        "title" : "Function ASin : Float ( x:Float )",
+        "description" : "Returns the arc sine of x, in degrees."
+    },
+    {
+        "keyword" : "ASinr",
+        "title" : "Function ASinr : Float ( x:Float )",
+        "description" : "Returns the arc sine of x, in radians."
+    },
+    {
+        "keyword" : "ATan",
+        "title" : "Function ATan : Float ( x:Float )",
+        "description" : "Returns the arc tangent of x, in degrees."
+    },
+    {
+        "keyword" : "ATan2",
+        "title" : "Function ATan2 : Float ( x:Float, y:Float )",
+        "description" : "<p>Returns the arc tangent of x / y, in degrees.</p><p>The function uses the signs of x and y to compute the correct quadrant for the result.</p>"
+    },
+    {
+        "keyword" : "ATan2r",
+        "title" : "Function ATan2r : Float ( x:Float, y:Float )",
+        "description" : "<p>Returns the arc tangent of x / y, in radians.</p><p>The function uses the signs of x and y to compute the correct quadrant for the result.</p>"
+    },
+    {
+        "keyword" : "ATanr",
+        "title" : "Function ATanr : Float ( x:Float )",
+        "description" : "Returns the arc tangent of x, in radians."
+    },
+    {
+        "keyword" : "Abs",
+        "title" : "Function Abs : Int/Float ( x:Int/Float )",
+        "description" : "Returns the absolute value of x, that is, +x if x>=0 and -x if x<0."
+    },
+    {
+        "keyword" : "Abstract",
+        "title" : "Declares method as Abstract.",
+        "description" : "<p>Syntax</p><p>Method Identifier: ReturnType ( Parameters ) [ Property ] [ Abstract ] [ Final ] Statements... End [ Method ]</p>"
+    },
+    {
+        "keyword" : "AccelX",
+        "title" : "Function AccelX : Float ()",
+        "description" : "Returns the x compononent of the acceleration applied to the device, as measured by the device's accelerometer if present.<br />The value returned is in the range -1 to 1 inclusive.<br />If the device has no accelerometer, 0 is returned.<br />Accelerometer functionality is currently only available on the android, html5 and ios targets."
+    },
+    {
+        "keyword" : "AccelY",
+        "title" : "Function AccelY : Float ()",
+        "description" : "Returns the y compononent of the acceleration applied to the device, as measured by the device's accelerometer if present.<br />The value returned is in the range -1 to 1 inclusive.<br />If the device has no accelerometer, 0 is returned.<br />Accelerometer functionality is currently only available on the android, html5 and ios targets."
+    },
+    {
+        "keyword" : "AccelZ",
+        "title" : "Function AccelZ : Float ()",
+        "description" : "Returns the z compononent of the acceleration applied to the device, as measured by the device's accelerometer if present.<br />The value returned is in the range -1 to 1 inclusive.<br />If the device has no accelerometer, 0 is returned.<br />Accelerometer functionality is currently only available on the android, html5 and ios targets."
+    },
+    {
+        "keyword" : "Accept",
+        "title" : "Method Accept : Socket ()",
+        "description" : "Accepts a new connection from a remote host.<br />The method will block until a new connection is accepted.<br />The socket must be a server socket. If the socket has not been bound, it will first be bound to a system generated host address and port number."
+    },
+    {
+        "keyword" : "AcceptAsync",
+        "title" : "Method AcceptAsync : Void ( onComplete:IOnAcceptComplete )",
+        "description" : "Accepts a new connection from a remote host asynchronously.<br />The method returns immediately. Once a new connection is accepted, the OnAcceptComplete method of the onComplete object is called.<br />The socket must be a server socket."
+    },
+    {
+        "keyword" : "AdViewHeight",
+        "title" : "Method AdViewHeight : Int ()",
+        "description" : "Returns the height of the ad view, or 0 if the ad view is hidden."
+    },
+    {
+        "keyword" : "AdViewWidth",
+        "title" : "Method AdViewWidth : Int ()",
+        "description" : "Returns the width of the ad view, or 0 if the ad view is hidden."
+    },
+    {
+        "keyword" : "Add",
+        "title" : "Method Add : Bool ( key:K, value:V )",
+        "description" : "Adds a key/value pair to the map.<br />The map is only modified if it does not already contain the given key, in which case a new key/value association is created and true is returned.<br />If the map already contains key, it is not modified and false is returned."
+    },
+    {
+        "keyword" : "AddAsyncEventSource",
+        "title" : "Function AddAsyncEventSource : Void ( source:IAsyncEventSource )",
+        "description" : "Adds source to the global list of event sources to be processed by UpdateAsyncEvents."
+    },
+    {
+        "keyword" : "AddFirst",
+        "title" : "Method AddFirst : Node<T> ( data:T )",
+        "description" : "Adds a value at the start of the list."
+    },
+    {
+        "keyword" : "AddLast",
+        "title" : "Method AddLast : Node<T> ( data:T )",
+        "description" : "Adds a value at the end of the list."
+    },
+    {
+        "keyword" : "AddProducts",
+        "title" : "Method AddProducts : Void ( ids:String[], type:Int )",
+        "description" : "Adds multiple new products to the store.<br />Each element of ids is the Android or iOS 'product id' of the product to add.<br />type is the product type - consumable or non-consumable."
+    },
+    {
+        "keyword" : "AdditiveBlend",
+        "title" : "MODULE mojo.graphics",
+        "description" : "Rendering operations are additively blended with existing graphics"
+    },
+    {
+        "keyword" : "Admob",
+        "title" : "CLASS Admob",
+        "description" : "The admob class provides simple support for the Google Admob advertising system, which allows you to add advertising to your games."
+    },
+    {
+        "keyword" : "Allocate",
+        "title" : "Method Allocate : T ()",
+        "description" : "<p>Allocates an object from the pool.</p><p>If the pool is empty, an object created using New is returned instead.</p>"
+    },
+    {
+        "keyword" : "AlphaBlend",
+        "title" : "MODULE mojo.graphics",
+        "description" : "Rendering operations are alpha blended with existing graphics"
+    },
+    {
+        "keyword" : "And",
+        "title" : "The logical And operator.",
+        "description" : "<p>Syntax</p><p>[If] expression And expression [... ]</p>"
+    },
+    {
+        "keyword" : "App",
+        "title" : "CLASS App",
+        "description" : "This is the main application class."
+    },
+    {
+        "keyword" : "AppArgs",
+        "title" : "Function AppArgs : String[] ()",
+        "description" : "Returns the application startup parameters."
+    },
+    {
+        "keyword" : "AppPath",
+        "title" : "Function AppPath : String ()",
+        "description" : "Returns the file system path of the currently running application."
+    },
+    {
+        "keyword" : "Array",
+        "title" : "CLASS Array",
+        "description" : "The Array type is a fundamental monkey type used to represent array values."
+    },
+    {
+        "keyword" : "ArrayBoxer",
+        "title" : "CLASS ArrayBoxer",
+        "description" : "The ArrayBoxer class is a utility class that allows you to box and unbox arrays for use with reflection."
+    },
+    {
+        "keyword" : "ArrayClass",
+        "title" : "Function ArrayClass : ClassInfo ( elementType:String )",
+        "description" : "Returns the class of an array.<br />The elementType parameter is case sensitive, and must be the fully qualified name of the element type.<br />The elementType parameter may itself be an array, in which case the returned class represents a multidimensional array.<br />This is actually the class of the objects used to box arrays, since arrays aren't objects and therefore don't have a class."
+    },
+    {
+        "keyword" : "ArrayLength",
+        "title" : "Method ArrayLength : Int ( inst:Object )",
+        "description" : "Get length of an array."
+    },
+    {
+        "keyword" : "ArrayObject",
+        "title" : "CLASS ArrayObject<T>",
+        "description" : "The ArrayObject box class is a generic class that can be used to encapsulate an array inside an object."
+    },
+    {
+        "keyword" : "Attributes",
+        "title" : "Method Attributes : Int () Property",
+        "description" : "Get class attributes.<br />Get const attributes.<br />Get field attributes.<br />Get function attributes.<br />Get global attributes.<br />Get method attributes"
+    },
+    {
+        "keyword" : "Backwards",
+        "title" : "Method Backwards : Object ()",
+        "description" : "<p>Returns an object that may be used to iterate backwards through the list with a For EachIn loop.<br />Note that this doesn't not actually reverse or modify the list in any way.</p><p>Returns an object that may be used to iterate backwards through the stack with a For EachIn loop.<br />Note that this does not actually reverse or modify the stack in any way.</p>"
+    },
+    {
+        "keyword" : "BeginPrettyBlock",
+        "title" : "Method BeginPrettyBlock : String ()",
+        "description" : "This method is called when a Markdown objects encounters a <pre> tag, and should return an appropriate html block start tag, eg: <div>."
+    },
+    {
+        "keyword" : "Bind",
+        "title" : "Method Bind : Bool ( host:String, port:Int )",
+        "description" : "Binds the socket to a local host and port.<br />If host is '', the socket will be bound to a system allocated host address, generally 'localhost' or '127.0.0.1'.<br />If port is 0, the socket will be bound to a system allocated port number.<br />Returns true if successful. This method will fail if the socket is already bound to a port, or the binding failed, for example if port is already in use.<br />In the case of server sockets, Bind will cause the server to start listening."
+    },
+    {
+        "keyword" : "BindAsync",
+        "title" : "Method BindAsync : Void ( host:String, port:Int, onComplete:IOnBindComplete )",
+        "description" : "<p>Binds the socket to a local host and port asynchronously.</p><p>The method returns immediately. Once the bind operation is complete, the OnBindComplete method of the onComplete object is called.</p>"
+    },
+    {
+        "keyword" : "Bool",
+        "title" : "TYPE BOOL",
+        "description" : "The built-in boolean type."
+    },
+    {
+        "keyword" : "BoolClass",
+        "title" : "Function BoolClass : ClassInfo ()",
+        "description" : "<p>Returns the class of a 'bool'.</p><p>This is actually the class of the objects used to box bools, since bools aren't objects and therefore don't have a class.</p>"
+    },
+    {
+        "keyword" : "BoolObject",
+        "title" : "CLASS BoolObject",
+        "description" : "The BoolObject box class can be used to encapsulate an bool value inside an object."
+    },
+    {
+        "keyword" : "BoolValue",
+        "title" : "Method BoolValue : Bool ()",
+        "description" : "Throws a JsonError if object is not a JsonBool."
+    },
+    {
+        "keyword" : "Box",
+        "title" : "Function Box : Object ( value:T[] )",
+        "description" : "Box an array."
+    },
+    {
+        "keyword" : "BoxBool",
+        "title" : "Function BoxBool : Object ( value:Bool )",
+        "description" : "Creates a box object with the given value.<br />Box objects can be passed to the SetValue methods of FieldInfo and GlobalInfo objects, and used as parameters for the Invoke methods of MethodInfo and FunctionInfo objects.<br />Box objects are also returned by the GetValue methods of ConstInfo, FieldInfo and GlobalInfo objects, and by the Invoke methods of MethodInfo and FunctionInfo objects."
+    },
+    {
+        "keyword" : "BoxFloat",
+        "title" : "Function BoxFloat : Object ( value:Float )",
+        "description" : "Creates a box object with the given value.<br />Box objects can be passed to the SetValue methods of FieldInfo and GlobalInfo objects, and used as parameters for the Invoke methods of MethodInfo and FunctionInfo objects.<br />Box objects are also returned by the GetValue methods of ConstInfo, FieldInfo and GlobalInfo objects, and by the Invoke methods of MethodInfo and FunctionInfo objects."
+    },
+    {
+        "keyword" : "BoxInt",
+        "title" : "Function BoxInt : Object ( value:Int )",
+        "description" : "Creates a box object with the given value.<br />Box objects can be passed to the SetValue methods of FieldInfo and GlobalInfo objects, and used as parameters for the Invoke methods of MethodInfo and FunctionInfo objects.<br />Box objects are also returned by the GetValue methods of ConstInfo, FieldInfo and GlobalInfo objects, and by the Invoke methods of MethodInfo and FunctionInfo objects."
+    },
+    {
+        "keyword" : "BoxString",
+        "title" : "Function BoxString : Object ( value:String )",
+        "description" : "Creates a box object with the given value.<br />Box objects can be passed to the SetValue methods of FieldInfo and GlobalInfo objects, and used as parameters for the Invoke methods of MethodInfo and FunctionInfo objects.<br />Box objects are also returned by the GetValue methods of ConstInfo, FieldInfo and GlobalInfo objects, and by the Invoke methods of MethodInfo and FunctionInfo objects."
+    },
+    {
+        "keyword" : "BuyProductAsync",
+        "title" : "Method BuyProductAsync : Void ( product:Product, onComplete:IOnBuyProductComplete )",
+        "description" : "Starts an async operation to buy a product.<br />When the operation completes, the OnBuyProductComplete method of the onComplete object is called.<br />Note that it is possible to buy the same non-consumable product multiple times, although the user will only be charged for the first purchase. It is up to your app to keep track of purchases and ensure the user is not presented with the option of repurchasing a non-consumable product.<br />This method may only be called after OpenStoreAsync successfully completes."
+    },
+    {
+        "keyword" : "BytesReceived",
+        "title" : "Method BytesReceived : Int ()",
+        "description" : "Returns the total number of bytes received."
+    },
+    {
+        "keyword" : "CanGet",
+        "title" : "Method CanGet : Int ()",
+        "description" : "Returns the number of bytes that can be read from the buffer using Get."
+    },
+    {
+        "keyword" : "CanPut",
+        "title" : "Method CanPut : Int ()",
+        "description" : "Returns the number of bytes that can be written to the buffer using Put."
+    },
+    {
+        "keyword" : "Capacity",
+        "title" : "Method Capacity : Int ()",
+        "description" : "Returns the size of the buffer in bytes, ie: CanGet+CanPut."
+    },
+    {
+        "keyword" : "Case",
+        "title" : "Case is part of the conditional Select block.",
+        "description" : "<p>Syntax</p><p>Case expression</p>"
+    },
+    {
+        "keyword" : "Catch",
+        "title" : "The Catch keyword is part of the Try/Catch exception-handling construct. See Try for more details on exception handling.",
+        "description" : "<p>Syntax</p><p>Catch exception</p>"
+    },
+    {
+        "keyword" : "Ceil",
+        "title" : "Function Ceil : Float ( x:Float )",
+        "description" : "Returns the smallest integral value that is not less than x."
+    },
+    {
+        "keyword" : "ChangeDir",
+        "title" : "Function ChangeDir : Int ( path:String )",
+        "description" : "Changes the current directory of the running application."
+    },
+    {
+        "keyword" : "ChannelState",
+        "title" : "Function ChannelState : Int ( channel:Int )",
+        "description" : "Returns the state of the specified audio channel: 0 if the channel is currently stopped, 1 if the channel is currently playing, 2 if the channel is currently paused or -1 if the channel state cannot be determined."
+    },
+    {
+        "keyword" : "Clamp",
+        "title" : "Function Clamp : Int/Float ( x:Int/Float, min:Int/Float, max:Int/Float )",
+        "description" : "Clamps x to the range min through max inclusive."
+    },
+    {
+        "keyword" : "Class",
+        "title" : "Declares the beginning of an object class.",
+        "description" : "<p>Syntax</p><p>Class Identifier [ < Parameters > ] [ Extends Class ] [ Implements Interfaces ] [ Final ] ' Declarations... End [ Class ]</p>"
+    },
+    {
+        "keyword" : "ClassInfo",
+        "title" : "CLASS ClassInfo",
+        "description" : "ClassInfo objects describe classes declared by your program and in modules."
+    },
+    {
+        "keyword" : "Clear",
+        "title" : "Method Clear : Void () / Int()",
+        "description" : "Empties the buffer.<br />Removes all items from the deque.<br />Removes all the elements from the list.<br />Removes all keys and values from the map.<br />Removes all items from the set.<br />Removes all items from the stack."
+    },
+    {
+        "keyword" : "Close",
+        "title" : "Method Close : Void ()",
+        "description" : "<p>Closes the stream and released any OS resources in use.</p><p>This method should always be used when you are finished with a stream.</p>"
+    },
+    {
+        "keyword" : "Cls",
+        "title" : "Function Cls : Int ( r:Float=0, g:Float=0, b:Float=0 )",
+        "description" : "<p>Clears the graphics device to the specified color.</p><p>The current color, alpha and blend mode are ignored by Cls. However, the scissor rect is still used so only the area inside the scissor rect is cleared.</p>"
+    },
+    {
+        "keyword" : "Compare",
+        "title" : "Method Compare : Int ( box:IntObject / lhs:Int/Float/String/T, rhs:Int/Float/String/T)",
+        "description" : "<p>Compares IntObjects. Returns a value <0 if this int value is less than box, a value >0 if this int value is greater than box, or 0 if both int values are equal.</p><p>Multiple compare methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "Connect",
+        "title" : "Method Connect : Bool ( host:String, port:Int )",
+        "description" : "<p>Connects the socket to a remote host.<br />The method will block until the connection completes.<br />Returns true if the connection was successful.<br />The socket must be a stream or datagram socket.</p><p>Attempts to connect to the specified host and returns true if successful.<br />Once connected, you can use stream read/write commands to communicate with the host.</p>"
+    },
+    {
+        "keyword" : "ConnectAsync",
+        "title" : "Method ConnectAsync : Void ( host:String, port:Int, onComplete:IOnConnectComplete )",
+        "description" : "Connects a socket to a remote host asynchronously.<br />The method returns immediately. Once the connection is complete, the OnConnectComplete method of the onComplete object is called.<br />The socket must be a stream or datagram socket."
+    },
+    {
+        "keyword" : "Const",
+        "title" : "Declares a constant value.",
+        "description" : "<p>Syntax</p><p>Const Identifier:Type = Expression<br />Const Identifier:= Expression</p>"
+    },
+    {
+        "keyword" : "ConstInfo",
+        "title" : "CLASS ConstInfo",
+        "description" : "ConstInfo objects describe constant values declared by your program."
+    },
+    {
+        "keyword" : "Contains",
+        "title" : "Method Contains : Bool ( key:String )",
+        "description" : "<p>Returns true if the json object contains key.</p><p>Multiple Contains methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "Continue",
+        "title" : "The Continue keyword causes program flow to jump immediately to the start of the next iteration of an enclosing For, While or Repeat loop.",
+        "description" : "<p>Syntax</p><p>Continue</p>"
+    },
+    {
+        "keyword" : "CopyBytes",
+        "title" : "Method CopyBytes : Void ( srcAddress:Int, dst:DataBuffer, dstAddress:Int, count:Int )",
+        "description" : "Copies count bytes starting at srcAddress from this buffer to dst."
+    },
+    {
+        "keyword" : "CopyDir",
+        "title" : "Function CopyDir : Bool ( srcpath:String, dstpath:String, recursive:Bool=true, hidden:Bool=false )",
+        "description" : "Copies the directory at srcpath to dstpath, creating dstpath if necessary.<br />If recursive is True, then subdirectories are also copied.<br />If hidden is True, then hidden files - files starting with a dot - are also copied.<br />Returns True if the directory was successfully copied."
+    },
+    {
+        "keyword" : "CopyFile",
+        "title" : "Function CopyFile : Bool ( src:String, dst:String )",
+        "description" : "<p>Copies a file from srcpath to dstpath.</p><p>Returns True if the file was successfully copied.</p>"
+    },
+    {
+        "keyword" : "Cos",
+        "title" : "Function Cos : Float ( x:Float )",
+        "description" : "Returns the cosine of x degrees."
+    },
+    {
+        "keyword" : "Cosr",
+        "title" : "Function Cosr : Float ( x:Float )",
+        "description" : "Returns the cosine of x radians."
+    },
+    {
+        "keyword" : "Count",
+        "title" : "Method Count : Int ()",
+        "description" : "<p>Returns the number of elements in the list.<br />Note that this method takes time proportional to the number of elements in the list.</p><p>Multiple Count methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "CreateDir",
+        "title" : "Function CreateDir : Bool ( path:String )",
+        "description" : "<p>Create a new directory at path.</p><p>Returns True if the directory was successfully created.</p>"
+    },
+    {
+        "keyword" : "CreateFile",
+        "title" : "Function CreateFile : Bool ( path:String )",
+        "description" : "Creates a new file at path.<br />If the file already exists, it's contents are discarded and a new empty file is created.<br />Returns True if the file was successfully created."
+    },
+    {
+        "keyword" : "CreateImage",
+        "title" : "Function CreateImage : Image ( width:Int, height:Int, frameCount:Int=1, flags:Int=image.defaultflags )",
+        "description" : "<p>Creates an empty image for use with WritePixels.</p><p>The contents of the image are initially undefined.</p>"
+    },
+    {
+        "keyword" : "CurrentDir",
+        "title" : "Function CurrentDir : String ()",
+        "description" : "Returns the current directory of the currently running application."
+    },
+    {
+        "keyword" : "DataBuffer",
+        "title" : "CLASS DataBuffer",
+        "description" : "Databuffer objects provide storage for arbitrary data."
+    },
+    {
+        "keyword" : "DataStream",
+        "title" : "CLASS DataStream",
+        "description" : "A datastream allows you to read and write data to and from a databuffer in a stream-like way."
+    },
+    {
+        "keyword" : "DebugLog",
+        "title" : "Function DebugLog : Int ( message:String )",
+        "description" : "Writes message to the current debug channel."
+    },
+    {
+        "keyword" : "DebugStop",
+        "title" : "Function DebugStop : Int ()",
+        "description" : "Stops program execution."
+    },
+    {
+        "keyword" : "Default",
+        "title" : "Default is part of the conditional Select block.",
+        "description" : "<p>Syntax</p><p>Default<br />statement</p>"
+    },
+    {
+        "keyword" : "DefaultFlags",
+        "title" : "Global DefaultFlags : Int",
+        "description" : "The image flags used by default when an image is loaded or grabbed."
+    },
+    {
+        "keyword" : "DeleteDir",
+        "title" : "Function DeleteDir : Bool ( path:String, recursive:Bool=false )",
+        "description" : "Deletes the directory at path.<br />If recursive is True, then subdirectories are also deleted - use with care!<br />If recursive if False and the directory contains files, DeleteDir will fail.<br />Returns True if the directory was successfully deleted."
+    },
+    {
+        "keyword" : "DeleteFile",
+        "title" : "Function DeleteFile : Bool ( path:String )",
+        "description" : "<p>Deletes the specified file.</p><p>Returns True if the file was successfully deleted</p>"
+    },
+    {
+        "keyword" : "Deque",
+        "title" : "CLASS Deque<T>",
+        "description" : "A deque is a 'double ended queue'."
+    },
+    {
+        "keyword" : "Description",
+        "title" : "Method Description : String () Property",
+        "description" : "The product description."
+    },
+    {
+        "keyword" : "DeviceHeight",
+        "title" : "Function DeviceHeight : Int ()",
+        "description" : "<p>Returns the height of the graphics device, in pixels.</p><p>Please note that you cannot directly control the size of the graphics device via mojo. This must be done by editing the 'native' project code for the target.</p>"
+    },
+    {
+        "keyword" : "DeviceWidth",
+        "title" : "Function DeviceWidth : Int ()",
+        "description" : "<p>Returns the width of the graphics device, in pixels.</p><p>Please note that you cannot directly control the size of the graphics device via mojo. This must be done by editing the 'native' project code for the target.</p>"
+    },
+    {
+        "keyword" : "DisableKeyboard",
+        "title" : "Function DisableKeyboard : Int ()",
+        "description" : "On the android and ios targets, this function disables the native virtual keyboard. On all other targets, both EnableKeyboard and DisableKeyboard have no effect."
+    },
+    {
+        "keyword" : "Discard",
+        "title" : "Method Discard : Void ()",
+        "description" : "<p>Releases any resources used by the data buffer.<br />Once discarded, a data buffer should not be used again.</p><p>Multiple Discard methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "Domain",
+        "title" : "Method Domain : String () Property",
+        "description" : "Returns the domain part of the url."
+    },
+    {
+        "keyword" : "DrawCircle",
+        "title" : "Function DrawCircle : Int ( x:Float, y:Float, r:Float )",
+        "description" : "<p>Draws a circle of the given radius at coordinates x, y.</p><p>The circle is drawn using the current color, alpha, blend mode and matrix, and is clipped to the current scissor rectangle.</p>"
+    },
+    {
+        "keyword" : "DrawEllipse",
+        "title" : "Function DrawEllipse : Int ( x:Float, y:Float, xr:Float, yr:Float )",
+        "description" : "<p>Draws an ellipse of radii xRadius, yRadius at coordinates x, y.</p><p>The ellipse is drawn using the current color, alpha, blend mode and matrix, and is clipped to the current scissor rectangle.</p>"
+    },
+    {
+        "keyword" : "DrawImage",
+        "title" : "Function DrawImage : Int ( image:Image, x:Float, y:Float, frame:Int=0 )",
+        "description" : "<p>Draws an image at coordinates x, y, offset by the image's handle.<br />The image is drawn using the current color, alpha, blend mode and matrix, and is clipped to the current scissor rectangle.</p><p>Multiple DrawImage methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "DrawImageRect",
+        "title" : "Function DrawImageRect : Int ( image:Image, x:Float, y:Float, srcX:Int, srcY:Int, srcWidth:Int, srcHeight:Int, frame:Int=0 )",
+        "description" : "<p>Draws a sub-rectangle of an image at coordinates x, y, offset by the image's handle.<br />The image is drawn using the current color, alpha, blend mode and matrix, and is clipped to the current scissor rectangle.</p><p>Multiple DrawImageRect methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "DrawLine",
+        "title" : "Function DrawLine : Int ( x1:Float, y1:Float, x2:Float, y2:Float )",
+        "description" : "<p>Draws a line from x1, y1 to x2, y2.</p><p>The line is drawn using the current color, alpha, blend mode and matrix, and is clipped to the current scissor rectangle.</p>"
+    },
+    {
+        "keyword" : "DrawOval",
+        "title" : "Function DrawOval : Int ( x:Float, y:Float, w:Float, h:Float )",
+        "description" : "<p>Draws an oval of size width, height at coordinates x, y.</p><p>The oval is drawn using the current color, alpha, blend mode and matrix, and is clipped to the current scissor rectangle.</p>"
+    },
+    {
+        "keyword" : "DrawPoint",
+        "title" : "Function DrawPoint : Int ( x:Float, y:Float )",
+        "description" : "<p>Draws a point at the coordinates x, y.</p><p>The point is drawn using the current color, alpha, blend mode and matrix, and is clipped to the current scissor rectangle.</p>"
+    },
+    {
+        "keyword" : "DrawPoly",
+        "title" : "Function DrawPoly : Int ( verts:Float[] )",
+        "description" : "Draw a convex polygon using the provided vertices.<br />The polygon is drawn using the current color, alpha, blend mode and matrix, and is clipped to the current scissor rectangle.<br />If the polygon described by vertices is not convex, the results are undefined.<br />The vertices array must contain at least 3 x,y pairs."
+    },
+    {
+        "keyword" : "DrawRect",
+        "title" : "Function DrawRect : Int ( x:Float, y:Float, w:Float, h:Float )",
+        "description" : "<p>Draws a rectangle of size width, height at the coordinates x, y.</p><p>The rectangle is drawn using the current color, alpha, blend mode and matrix, and is clipped to the current scissor rectangle.</p>"
+    },
+    {
+        "keyword" : "DrawText",
+        "title" : "Function DrawText : Int ( text:String, x:Float, y:Float, xalign:Float=0, yalign:Float=0 )",
+        "description" : "Draws text at coordinates x, y in the current font.<br />The current font may be modified using SetFont. By default, an internal 7 x 13 white-on-black font is used.<br />xalign and yalign allow you to control the alignment of the text and should be in the range 0 for left/top alignment to 1 for right/bottom alignment. A value of .5 can be used for centering text horizontally or vertically.<br />The text is drawn using the current color, alpha, blend mode and matrix, and is clipped to the current scissor rectangle."
+    },
+    {
+        "keyword" : "Eachin",
+        "title" : "Defines the set of objects or values to be assigned to the index variable in a For/Next loop.",
+        "description" : "<p>Syntax</p><p>For Local IndexVar := Eachin value_set~n Statements...<br />Next</p>"
+    },
+    {
+        "keyword" : "ElementType",
+        "title" : "Method ElementType : ClassInfo () Property",
+        "description" : "Get array element type."
+    },
+    {
+        "keyword" : "Else",
+        "title" : "Marks the start of alternative program flow should a conditional expression prove False.",
+        "description" : "<p>Syntax</p><p>If expression [Then]<br />Statements...<br />Else<br />Statements...<br />Endif</p>"
+    },
+    {
+        "keyword" : "Elseif",
+        "title" : "Where the initial expression in a conditional block proves False, ElseIf allows for the testing of another expression, executing an alternative section of code should that expression prove True.",
+        "description" : "<p>Syntax</p><p>If expression [Then]<br />Statements...<br />Elseif expression [Then]<br />Statements...<br />Endif</p>"
+    },
+    {
+        "keyword" : "EnableKeyboard",
+        "title" : "Function EnableKeyboard : Int ()",
+        "description" : "On the android and ios targets, this function enables the native virtual keyboard. On all other targets, both EnableKeyboard and DisableKeyboard have no effect."
+    },
+    
+    {
+        "keyword" : "End",
+        "title" : "Declares the end of a class, function, method or similar block-style definition, or of certain loop or conditional blocks.",
+        "description" : "<p>Syntax</p><p>Block keyword<br />End [Block keyword]</p>"
+    },
+    {
+        "keyword" : "EndApp",
+        "title" : "Function EndApp : Void ()",
+        "description" : "Ends the current application."
+    },
+    {
+        "keyword" : "EndPrettyBlock",
+        "title" : "Method EndPrettyBlock : String ()",
+        "description" : "This method is called when a Markdown object encounters a </pre> tag, and should return an appropriate html block end tag, eg: </div>."
+    },
+    {
+        "keyword" : "Endif",
+        "title" : "Marks the end of a conditional block.",
+        "description" : "<p>Syntax</p><p>If expression [Then]<br />Statements...<br />Endif</p>"
+    },
+    {
+        "keyword" : "EndsWith",
+        "title" : "Method EndsWith : Bool ( str:String )",
+        "description" : "Returns true if this string ends with str, else false."
+    },
+    {
+        "keyword" : "Eof",
+        "title" : "Method Eof : Int () Property",
+        "description" : "Returns 1 if end-of-file has been reached, -1 if an IO error has occurred or 0 if the stream can be read."
+    },
+    {
+        "keyword" : "Equals",
+        "title" : "Method Equals : Bool ( box:BoolObject )",
+        "description" : "<p>Returns 'true' if the value contained in the BoolObject equals the value contained in box.</p><p>Multiple Equals methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "Error",
+        "title" : "Function Error : Int ( message:String )",
+        "description" : "<p>Generates a runtime error message and ends program execution.</p><p>If message is an empty string, program execution will end but no runtime error message with be generated</p>"
+    },
+    {
+        "keyword" : "Execute",
+        "title" : "Function Execute : String ( cmd:String )",
+        "description" : "Runs a process, waits for it to finish, and returns the process stdout output."
+    },
+    {
+        "keyword" : "Exit",
+        "title" : "Allows program flow to 'jump out' of loops, continuing execution after the relevant closing keyword.",
+        "description" : "<p>Syntax</p><p>Exit</p>"
+    },
+    {
+        "keyword" : "ExitApp",
+        "title" : "Function ExitApp : Int ( retcode:Int )",
+        "description" : "<p>Exits the application with the given return code.</p><p>In general, ExitApp should return 0 if successful, or <0 upon failure.</p>"
+    },
+    {
+        "keyword" : "Exp",
+        "title" : "Function Exp : Float ( x:Float )",
+        "description" : "Returns the base-e exponential function of x, which is the e number raised to the power x."
+    },
+    {
+        "keyword" : "Extends",
+        "title" : "Declares that class definition inherits a parent class.",
+        "description" : "<p>Syntax</p><p>Class Identifier [ < Parameters > ] [ Extends Class ] [ Implements Interfaces ] [ Final ]<br />' Declarations...<br />End [ Class ]</p>"
+    },
+    {
+        "keyword" : "ExtendsClass",
+        "title" : "Method ExtendsClass : Bool ( clas:ClassInfo )",
+        "description" : "Check if class extends another class, or implements an interface."
+    },
+    {
+        "keyword" : "Extern",
+        "title" : "External code directive.",
+        "description" : "<p>Syntax</p><p>Extern [Private]</p>"
+    },
+    {
+        "keyword" : "ExtractDir",
+        "title" : "Function ExtractDir : String ( path:String )",
+        "description" : "Returns the directory part of a file path."
+    },
+    {
+        "keyword" : "ExtractExt",
+        "title" : "Function ExtractExt : String ( path:String )",
+        "description" : "Returns the file type extension part of a file system path."
+    },
+    {
+        "keyword" : "False",
+        "title" : "Represents boolean true value.",
+        "description" : "Boolean expressions evaluate to either true or false. In Monkey the operators True and False represent these two states."
+    },
+    {
+        "keyword" : "Field",
+        "title" : "Declares a class field variable.",
+        "description" : "<p>Syntax</p><p>Field Identifier:Type [ = Expression ]<br />Field Identifier:= Expression</p>"
+    },
+    {
+        "keyword" : "FieldInfo",
+        "title" : "CLASS FieldInfo",
+        "description" : "FieldInfo objects describe fields declared within a class."
+    },
+    {
+        "keyword" : "FileSize",
+        "title" : "Function FileSize : Int ( path:String )",
+        "description" : "Return the length of a file, in bytes, or 0 if the file does not exist."
+    },
+    {
+        "keyword" : "FileStream",
+        "title" : "CLASS FileStream",
+        "description" : "A filestream allows you to read/write data from/to a file."
+    },
+    {
+        "keyword" : "FileTime",
+        "title" : "Function FileTime : Int ( path:String )",
+        "description" : "<p>Return the time the file was last modified, or 0 if the file does not exist.</p><p>The returned value is the number of seconds since Jan 1 1970.</p>"
+    },
+    {
+        "keyword" : "FileType",
+        "title" : "Function FileType : Int ( path:String )",
+        "description" : "Returns an integer representing the type of a file, one of: FILETYPE_NONE for no file, FILETYPE_FILE for a normal file, FILETYPE_DIR for a directory."
+    },
+    {
+        "keyword" : "Final",
+        "title" : "Declares that a class may not be extended or that a method may not be overridden.",
+        "description" : "<p>Class Identifier [ < Parameters > ] [ Extends Class ] [ Implements Interfaces ] [ Final ]<br />' Declarations...<br />End [ Class ]</p><p>Method Identifier: ReturnType ( Parameters ) [ Property ] [ Abstract ] [ Final ]<br />Statements...<br />End [ Method ]</p>"
+    },
+    {
+        "keyword" : "Find",
+        "title" : "Method Find : Int ( str:String, start:Int=0 )",
+        "description" : "<p>Returns the offset of the first occurrence of str within this string, starting at the specified start offset.</p><p>Returns -1 if str is not found.</p><p>Multiple Find methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "FindLast",
+        "title" : "Method FindLast : Int ( str:String )",
+        "description" : "<p>Returns the offset of the last occurrence of str within this string.</p><p>Returns -1 if str is not found.</p><p>Multiple FindLast methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "First",
+        "title" : "Method First : T ()",
+        "description" : "<p>Returns the first element in the list.</p><p>Using this method on an empty list will cause a runtime error in debug mode, and undefined behavior in release mode.</p>"
+    },
+    {
+        "keyword" : "FirstNode",
+        "title" : "Method FirstNode : Node<T> ()",
+        "description" : "Return the first node in the list, or Null if the list is empty."
+    },
+    {
+        "keyword" : "Flags",
+        "title" : "Method Flags : Int ()",
+        "description" : "Returns the flags used to create the image."
+    },
+    {
+        "keyword" : "Float",
+        "title" : "TYPE FLOAT",
+        "description" : "The built-in float type."
+    },
+    {
+        "keyword" : "FloatClass",
+        "title" : "Function FloatClass : ClassInfo ()",
+        "description" : "<p>Returns the class of a 'float'.</p><p>This is actually the class of the objects used to box floats, since floats aren't objects and therefore don't have a class.</p>"
+    },
+    {
+        "keyword" : "FloatDeque",
+        "title" : "CLASS FloatDeque",
+        "description" : "FloatDeque is a convenience class for handling deques of floating point values."
+    },
+    {
+        "keyword" : "FloatList",
+        "title" : "CLASS FloatList",
+        "description" : "FloatList is a convenience class for handling lists of floating point values."
+    },
+    {
+        "keyword" : "FloatMap",
+        "title" : "CLASS FloatMap<V>",
+        "description" : "A FloatMap is a convenience class for mapping floats to values."
+    },
+    {
+        "keyword" : "FloatObject",
+        "title" : "CLASS FloatObject",
+        "description" : "The FloatObject box class can be used to encapsulate a float value inside an object."
+    },
+    {
+        "keyword" : "FloatSet",
+        "title" : "CLASS FloatSet",
+        "description" : "FloatSet is a convenience class for managing sets of floats."
+    },
+    {
+        "keyword" : "FloatStack",
+        "title" : "CLASS FloatStack",
+        "description" : "A FloatStack is a convenience class for dealing with stacks of floats."
+    },
+    {
+        "keyword" : "FloatValue",
+        "title" : "Method FloatValue : Int ()",
+        "description" : "Throws a JsonError if object is not a JsonNumber."
+    },
+    {
+        "keyword" : "Floor",
+        "title" : "Function Floor : Float ( x:Float )",
+        "description" : "Returns the largest integral value that is not greater than x."
+    },
+    {
+        "keyword" : "FontHeight",
+        "title" : "Function FontHeight : Float ()",
+        "description" : "Returns the height of the current font."
+    },
+    {
+        "keyword" : "For",
+        "title" : "Declares the start of a For/Next loop",
+        "description" : "<p>Syntax</p><p>For Local IndexVar := start_value To end_value [ Step constant_value ]<br />Statements...<br />Next</p><p>For Local IndexVar := start_value Until end_value [ Step constant_value ]<br />Statements...<br />Next</p><p>For Local IndexVar := Eachin value_set<br />Statements...<br />Next</p>"
+    },
+    {
+        "keyword" : "Forever",
+        "title" : "Marks the end of a Repeat/Forever loop. See Repeat for details and examples.",
+        "description" : "<p>Syntax</p><p>Repeat<br />Statements...<br />Forever</p>"
+    },
+    {
+        "keyword" : "Fragment",
+        "title" : "Method Fragment : String () Property",
+        "description" : "Returns the anchor part of the url."
+    },
+    {
+        "keyword" : "Frames",
+        "title" : "Method Frames : Int ()",
+        "description" : "Returns the number of frames in the image."
+    },
+    {
+        "keyword" : "Free",
+        "title" : "Method Free : Void ( t:T )",
+        "description" : "Adds an object to the pool. This object is then available for future use by Allocate."
+    },
+    {
+        "keyword" : "FromChar",
+        "title" : "Function FromChar : String ( charCode:Int )",
+        "description" : "Creates and returns a string of length 1 containing the character code specified by charCode."
+    },
+    {
+        "keyword" : "FromChars",
+        "title" : "Function FromChars : String ( charCodes:Int[] )",
+        "description" : "Creates and returns a string containing the character codes in the specified charCode array."
+    },
+    {
+        "keyword" : "FullPath",
+        "title" : "Method FullPath : String () Property",
+        "description" : "Returns the path, query and fragment parts of the url, combined with appropriate separators."
+    },
+    {
+        "keyword" : "Function",
+        "title" : "Declares the beginning of a function.",
+        "description" : "<p>Syntax</p><p>Function Identifier: ReturnType ( Parameters )<br />Statements...<br />End [ Function ]</p>"
+    },
+    {
+        "keyword" : "FunctionInfo",
+        "title" : "CLASS FunctionInfo",
+        "description" : "FunctionInfo objects describe functions declared by your program."
+    },
+    {
+        "keyword" : "GameCenter",
+        "title" : "CLASS GameCenter",
+        "description" : "The gamecenter module provides simple support for the iOS Game Center framework."
+    },
+    {
+        "keyword" : "GameCenterAvail",
+        "title" : "Method GameCenterAvail : Bool ()",
+        "description" : "Returns true if Game Center support is available."
+    },
+    {
+        "keyword" : "GameCenterState",
+        "title" : "Method GameCenterState : Int ()",
+        "description" : "<p>Returns a value between -1 and 4.</p><p>Please check main documentation for more info.</p>"
+    },
+    {
+        "keyword" : "Get",
+        "title" : "Method Get : JsonValue ( key:String, defval:JsonValue=null )",
+        "description" : "<p>Returns defval if key doesn't exist.</p><p>Returns a JsonNull object if key is mapped to null.</p><p>Multiple Get methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "GetAdmob",
+        "title" : "Function GetAdmob : Admob ()",
+        "description" : "Get the global Admob object."
+    },
+    {
+        "keyword" : "GetAlpha",
+        "title" : "Function GetAlpha : Float ()",
+        "description" : "Returns the current alpha level in the range 0 to 1 inclusive."
+    },
+    {
+        "keyword" : "GetBlend",
+        "title" : "Function GetBlend : Int ()",
+        "description" : "Returns the current blend mode. See SetBlend for possible return values."
+    },
+    {
+        "keyword" : "GetBool",
+        "title" : "Method GetBool : Int ( key:String, defval:Bool=false / index:Int )",
+        "description" : "<p>Returns defval if key doesn't exist.</p><p>Throws a JsonError if value mapped to key is not a JsonBool.</p><p>Throws a JsonError if index is out of bounds or value at index is not a JsonBool.</p>"
+    },
+    {
+        "keyword" : "GetChar",
+        "title" : "Function GetChar : Int ()",
+        "description" : "Returns the character code of the next character in the keyboard character queue, or 0 if no more characters are available. The character is removed from the keyboard character queue.<br />The keyboard queue contains characters codes as opposed to the key codes used by KeyDown and KeyUp. Character codes differ from key codes in that they are generally printable and may be modified by the shift, control and alt keys. Character codes also 'repeat' at a rate determined by the OS.<br />The mapping from key codes to character codes is controlled by the underlying OS, but in practice will generally map to ASCII codes.<br />The input module also provides special character code mappings for a number of unprintable keys:<br />CHAR_TAB, CHAR_BACKSPACE, CHAR_ENTER, CHAR_ESCAPE, CHAR_PAGEUP, CHAR_PAGEDOWN, CHAR_END, CHAR_HOME, CHAR_LEFT, CHAR_UP, CHAR_RIGHT, CHAR_DOWN, CHAR_INSERT, CHAR_DELETE"
+    },
+    {
+        "keyword" : "GetClass",
+        "title" : "Function GetClass : ClassInfo ( name:String  / obj:Object)",
+        "description" : "<p>Returns the ClassInfo object with the given name, or Null if no object is found.</p><p>Returns the ClassInfo object with the given name, or Null if no object is found.</p>"
+    },
+    {
+        "keyword" : "GetClasses",
+        "title" : "Function GetClasses : ClassInfo[] ()",
+        "description" : "Returns an array of all reflected classes."
+    },
+    {
+        "keyword" : "GetColor",
+        "title" : "Function GetColor : Float[] ()",
+        "description" : "Returns the current color as a 3 component float array containg the current color's red, green and blue components respectively."
+    },
+    {
+        "keyword" : "GetConst",
+        "title" : "Function GetConst : ConstInfo ( name:String )",
+        "description" : "<p>Returns the ConstInfo object with the given name, or Null if no object is found.</p><p>Multiple GetConst methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "GetConstructor",
+        "title" : "Method GetConstructor : FunctionInfo ( argTypes:ClassInfo[] )",
+        "description" : "Get a class constructor."
+    },
+    {
+        "keyword" : "GetConstructors",
+        "title" : "Method GetConstructors : FunctionInfo[] ()",
+        "description" : "Get all constructors declared by class."
+    },
+    {
+        "keyword" : "GetConsts",
+        "title" : "Function GetConsts : ConstInfo[] ()",
+        "description" : "<p>Returns an array of all consts declared at module scope.</p><p>Multiple GetConsts methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "GetData",
+        "title" : "Method GetData : StringMap<JsonValue> ()",
+        "description" : "<p>Gets the internal map used to represent the object.</p><p>Multiple GetData methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "GetDate",
+        "title" : "Function GetDate : Int[] ()",
+        "description" : "<p>Returns the current date and time as an array of 7 integers: year, month (1-12), day (1-31), hours (0-23), minutes (0-59), seconds (0-59) and milliseconds (0-999).</p><p>Multiple GetDate methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "GetElement",
+        "title" : "Method GetElement : Object ( inst:Object, index:Int )",
+        "description" : "Get an array element."
+    },
+    {
+        "keyword" : "GetEnv",
+        "title" : "Function GetEnv : String ( name:String )",
+        "description" : "Gets an environment variable."
+    },
+    {
+        "keyword" : "GetField",
+        "title" : "Method GetField : FieldInfo ( name:String, recursive:Bool )",
+        "description" : "Get a class field."
+    },
+    {
+        "keyword" : "GetFields",
+        "title" : "Method GetFields : FieldInfo[] ( recursive:Bool )",
+        "description" : "Get all fields declared by class."
+    },
+    {
+        "keyword" : "GetFloat",
+        "title" : "Method GetFloat : Float ( key:String, defval:Float=0 )",
+        "description" : "<p>Returns defval if key doesn't exist.</p><p>Throws a JsonError if value mapped to key is not a JsonNumber.</p>"
+    },
+    {
+        "keyword" : "GetFont",
+        "title" : "Function GetFont : Image ()",
+        "description" : "Returns the current font."
+    },
+    {
+        "keyword" : "GetFunction",
+        "title" : "Function GetFunction : FunctionInfo ( name:String, argTypes:ClassInfo[] )",
+        "description" : "<p>Returns the FunctionInfo object with the given name and parameter types, or Null if no object is found.</p><p>Multiple GetFunction methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "GetFunctions",
+        "title" : "Function GetFunctions : FunctionInfo[] ()",
+        "description" : "<p>Returns an array of all reflected functions.</p><p>Multiple GetFunctions methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "GetGameCenter",
+        "title" : "Function GetGameCenter : GameCenter ()",
+        "description" : "Gets the global GameCenter object."
+    },
+    {
+        "keyword" : "GetGlobal",
+        "title" : "Function GetGlobal : GlobalInfo ( name:String )",
+        "description" : "<p>Returns the GlobalInfo object with the given name, or Null if no object is found.</p><p>Multiple GetGlobal methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "GetGlobals",
+        "title" : "Method GetGlobals : GlobalInfo[] ( recursive:Bool )",
+        "description" : "<p>Get all globals declared by class.</p><p>Multiple GetGlobals methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "GetInt",
+        "title" : "Method GetInt : Int ( key:String, defval:Int=0 )",
+        "description" : "<p>Returns defval if key doesn't exist.</p><p>Throws a JsonError if value mapped to key is not a JsonNumber.</p><p>Multiple GetInt methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "GetMatrix",
+        "title" : "Function GetMatrix : Float[] ()",
+        "description" : "<p>Returns the current transformation matrix as an array of 6 floats.</p><p>Multiple GetMatrix methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "GetMethod",
+        "title" : "Method GetMethod : MethodInfo ( name:String, argTypes:ClassInfo[], recursive:Bool )",
+        "description" : "Get a class method."
+    },
+    {
+        "keyword" : "GetMethods",
+        "title" : "Method GetMethods : MethodInfo[] ( recursive:Bool )",
+        "description" : "Get all methods declared by class."
+    },
+    {
+        "keyword" : "GetOwnedProductsAsync",
+        "title" : "Method GetOwnedProductsAsync : Void ( onComplete:IOnGetOwnedProductsComplete )",
+        "description" : "Starts an async operation to get an array of all non-consumable products owned by the user.<br />When the operation completes, the OnGetOwnedProductsComplete method of the onComplete object is called.<br />This method may only be called after OpenStoreAsync successfully completes.<br />On iOS, this method may cause an app store 'login' dialog to appear."
+    },
+    {
+        "keyword" : "GetProduct",
+        "title" : "Method GetProduct : Product ( id:String )",
+        "description" : "<p>Gets the product corresponding to id, the iTunes connect or GooglePlay product identifier.</p><p>This method may only be called after OpenStoreAsync successfully completes.</p>"
+    },
+    {
+        "keyword" : "GetProducts",
+        "title" : "Method GetProducts : Product[] ()",
+        "description" : "<p>Gets all products.</p><p>This method may only be called after OpenStoreAsync successfully completes.</p><p>Multiple GetProducts methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "GetScissor",
+        "title" : "Function GetScissor : Float[] ()",
+        "description" : "<p>Returns the current scissor rectangle as a 4 component float array containg the scissor rectangle's x,y, width and height coordinates respectively.</p><p>Multiple GetScissor methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "GetStream",
+        "title" : "Method GetStream : Stream ()",
+        "description" : "Returns the stream involved in the error."
+    },
+    {
+        "keyword" : "GetString",
+        "title" : "Method GetString : String ( key:String, defval:String='' )",
+        "description" : "<p>Returns defval if key doesn't exist.</p><p>Throws a JsonError if value mapped to key is not a JsonString.</p>"
+    },
+    {
+        "keyword" : "GetValue",
+        "title" : "Method GetValue : Object ()",
+        "description" : "<p>Get value of const.</p><p>Multiple GetValue methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "Global",
+        "title" : "Declares a global variable.",
+        "description" : "<p>Syntax</p><p>Global Identifier:Type [ = Expression ]<br />Global Identifier:= Expression</p>"
+    },
+    {
+        "keyword" : "GlobalInfo",
+        "title" : "CLASS GlobalInfo",
+        "description" : "GlobalInfo objects describe globals declared by your program."
+    },
+    {
+        "keyword" : "GrabImage",
+        "title" : "Method GrabImage : Image ( x:Int, y:Int, width:Int, height:Int, frames:Int, flags:Int )",
+        "description" : "GrabImage creates a new image by 'grabbing' a rectangular region of the current image.<br />Multiple frame images are assumed to be laid out in a horizontal strip, in which case width and height are the dimensions of each frame, and the source image must be wide enough to contain the entire strip.<br />Note that if image flags includes any padding, then the specified rectangle includes padding. This means image width and/or height may be '2 less' than the width and/or height you specify."
+    },
+    {
+        "keyword" : "HALFPI",
+        "title" : "The math module provides math related constants and functions.",
+        "description" : "CONSTANTS: HALFPI : Float"
+    },
+    {
+        "keyword" : "HandleX",
+        "title" : "Method HandleX : Float ()",
+        "description" : "Returns the x coordinate of the current image's handle."
+    },
+    {
+        "keyword" : "HandleY",
+        "title" : "Method HandleY : Float ()",
+        "description" : "Returns the y coordinate of the current image's handle."
+    },
+    {
+        "keyword" : "Height",
+        "title" : "Method Height : Int ()",
+        "description" : "Returns the height of the image, in pixels."
+    },
+    {
+        "keyword" : "HideAdView",
+        "title" : "Method HideAdView : Void ()",
+        "description" : "Hides the ad view and disables ads"
+    },
+    {
+        "keyword" : "HideMouse",
+        "title" : "Function HideMouse : Void ()",
+        "description" : "Hides the mouse pointer if the underlying operation system supports a mouse."
+    },
+    {
+        "keyword" : "Host",
+        "title" : "Method Host : String () Property",
+        "description" : "Returns the socket address host."
+    },
+    {
+        "keyword" : "HostOS",
+        "title" : "Function HostOS : String ()",
+        "description" : "<p>Returns a string describing the host operating system. The returned value will be one of:</p><p>winnt, macos, linux</p>"
+    },
+    {
+        "keyword" : "HttpRequest",
+        "title" : "CLASS HttpRequest",
+        "description" : "The httprequest module allows you to perform http requests such as GET and POST."
+    },
+    {
+        "keyword" : "Identifier",
+        "title" : "Method Identifier : String () Property",
+        "description" : "The iTunes connect or GooglePlay product identifier."
+    },
+    {
+        "keyword" : "If",
+        "title" : "Marks the start of a conditional If block.",
+        "description" : "<p>Syntax</p><p>If expression [Then]<br />Statements...<br />Endif</p><p>If expression [Then]<br />Statements...<br />End If</p><p>If expression [Then]<br />Statements...<br />End</p><p>If expression [Then] Statements...</p>"
+    },
+    {
+        "keyword" : "Image",
+        "title" : "CLASS Image",
+        "description" : "An image is a rectangular area of pixels, loaded from an image file with LoadImage or grabbed from another image with GrabImage."
+    },
+    {
+        "keyword" : "Implements",
+        "title" : "Declares that a class implements the methods of the specified interface.",
+        "description" : "<p>Syntax</p><p>Class Identifier [ Implements Interface ]<br />Declarations...<br />End [ Class ]</p>"
+    },
+    {
+        "keyword" : "Import",
+        "title" : "Module import directive.",
+        "description" : "<p>Syntax</p><p>Import module[.submodule]</p>"
+    },
+    {
+        "keyword" : "Insert",
+        "title" : "Method Insert : Int ( value:T )",
+        "description" : "<p>Inserts value into the set.</p><p>Multiple Insert methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "InsertAfter",
+        "title" : "Method InsertAfter : Node<T> ( where:T, data:T )",
+        "description" : "Inserts data after the first element in the list equal to where."
+    },
+    {
+        "keyword" : "InsertAfterEach",
+        "title" : "Method InsertAfterEach : Void ( where:T, data:T )",
+        "description" : "Inserts data after each element in the list equal to where."
+    },
+    {
+        "keyword" : "InsertBefore",
+        "title" : "Method InsertBefore : Node<T> ( where:T, data:T )",
+        "description" : "Inserts data before the first element in the list equal to where."
+    },
+    {
+        "keyword" : "InsertBeforeEach",
+        "title" : "Method InsertBeforeEach : Void ( where:T, data:T )",
+        "description" : "Inserts data before each element in the list equal to where."
+    },
+    {
+        "keyword" : "Int",
+        "title" : "TYPE INT",
+        "description" : "The built-in int type."
+    },
+    {
+        "keyword" : "IntClass",
+        "title" : "Function IntClass : ClassInfo ()",
+        "description" : "<p>Returns the class of an 'int'.</p><p>This is actually the class of the objects used to box ints, since ints aren't objects and therefore don't have a class.</p>"
+    },
+    {
+        "keyword" : "IntDeque",
+        "title" : "CLASS IntDeque",
+        "description" : "IntDeque is a convenience class for handling deques of integer values."
+    },
+    {
+        "keyword" : "IntList",
+        "title" : "CLASS IntList",
+        "description" : "IntList is a convenience class for handling lists of integer values."
+    },
+    {
+        "keyword" : "IntMap",
+        "title" : "CLASS IntMap<V>",
+        "description" : "An IntMap is a convenience class for mapping ints to values."
+    },
+    {
+        "keyword" : "IntObject",
+        "title" : "CLASS IntObject",
+        "description" : "The IntObject box class can be used to encapsulate an int value inside an object."
+    },
+    {
+        "keyword" : "IntSet",
+        "title" : "CLASS IntSet",
+        "description" : "IntSet is a convenience class for managing sets of ints."
+    },
+    {
+        "keyword" : "IntStack",
+        "title" : "CLASS IntStack",
+        "description" : "An IntStack is a convenience class for dealing with stacks of ints."
+    },
+    {
+        "keyword" : "IntValue",
+        "title" : "Method IntValue : Int ()",
+        "description" : "Throws a JsonError if object is not a JsonNumber."
+    },
+    {
+        "keyword" : "Interface",
+        "title" : "Declares an interface.",
+        "description" : "<p>Syntax</p><p>Interface Identifier [ Extends Interfaces ]<br />Declarations...<br />End [ Interface ]</p>"
+    },
+    {
+        "keyword" : "Interfaces",
+        "title" : "Method Interfaces : ClassInfo[] () Property",
+        "description" : "Get interfaces implemented by this class, or interfaces extended by this interface."
+    },
+    {
+        "keyword" : "Invoke",
+        "title" : "Method Invoke : Object ( inst:Object, args:Object[] )",
+        "description" : "Invoke function."
+    },
+    {
+        "keyword" : "IsBound",
+        "title" : "Method IsBound : Bool () Property",
+        "description" : "Returns true if the socket is currently bound to a local address."
+    },
+    {
+        "keyword" : "IsConnected",
+        "title" : "Method IsConnected : Bool () Property",
+        "description" : "Return true id the socket is currently connected to a remote host."
+    },
+    {
+        "keyword" : "IsEmpty",
+        "title" : "Method IsEmpty : Bool ()",
+        "description" : "<p>Returns true if the buffer is empty, ie: CanGet=0.</p><p>Multiple IsEmpty methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "IsFull",
+        "title" : "Method IsFull : Bool ()",
+        "description" : "Return true if the buffer is full, ie: CanPut=0."
+    },
+    {
+        "keyword" : "IsRunning",
+        "title" : "Method IsRunning : Bool () Property",
+        "description" : "Returns true is process is currently running."
+    },
+    {
+        "keyword" : "Join",
+        "title" : "Method Join : String ( pieces:String[] )",
+        "description" : "<p>Creates a single string by joining together each element of pieces, using the current string as a separator.</p><p>Multiple Join methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "JoyDown",
+        "title" : "Function JoyDown : Int ( button:Int, unit:Int=0 )",
+        "description" : "Return 1 if the specified joystick button is currently held down, else 0."
+    },
+    {
+        "keyword" : "JoyHit",
+        "title" : "Function JoyHit : Int ( button:Int, unit:Int=0 )",
+        "description" : "Return the number of times the specified joystick button has been pressed since the last OnUpdate."
+    },
+    {
+        "keyword" : "JoyX",
+        "title" : "Function JoyX : Float ( index:Int=0, unit:Int=0 )",
+        "description" : "Returns the x, or horizontal, state of a joystick.<br />The return value will be in the range -1 to +1, with -1 representing 'left' and +1 representing 'right'.<br />In the case of controllers with 2 joysticks, the index parameter should be 0 for the left hand joystick, or 1 for the right hand joystick.<br />Note: On the XNA target, JoyX, JoyY and JoyZ will all return 0 until a joystick button is pressed. This is to comply with xbox live publishing guidelines that state that it must be possible to use any of the 4 controllers to play a game. Mojo will therefore wait until a button is pressed (usually in response to a 'press button to start' style message on the title page) before deciding which controller is in use."
+    },
+    {
+        "keyword" : "JoyY",
+        "title" : "Function JoyY : Float ( index:Int=0, unit:Int=0 )",
+        "description" : "Returns the y, or vertical, state of a joystick.<br />The return value will be in the range -1 to +1, with -1 representing 'down' and +1 representing 'up'.<br />In the case of controllers with 2 joysticks, the index parameter should be 0 for the left hand joystick, or 1 for the right hand joystick.<br />Note: On the XNA target, JoyX, JoyY and JoyZ will all return 0 until a joystick button is pressed. This is to comply with xbox live publishing guidelines that state that it must be possible to use any of the 4 controllers to play a game. Mojo will therefore wait until a button is pressed (usually in response to a 'press button to start' style message on the title page) before deciding which controller is in use."
+    },
+    {
+        "keyword" : "JoyZ",
+        "title" : "Function JoyZ : Float ( index:Int=0, unit:Int=0 )",
+        "description" : "On Playstation/Xbox style controllers, JoyZ returns the state of the analog shoulder controls.<br />The returned value will be in the range 0 to 1, with 0 indicating 'unpressed' and 1 indicating 'fully pressed'.<br />The index parameter should be 0 for the left handler shoulder control, or 1 for the right hand shoulder control.<br />Note: On the XNA target, JoyX, JoyY and JoyZ will all return 0 until a joystick button is pressed. This is to comply with xbox live publishing guidelines that state that it must be possible to use any of the 4 controllers to play a game. Mojo will therefore wait until a controller button is pressed (usually in response to a 'press button to start' style message on the title page) before deciding which controller is in use."
+    },
+    {
+        "keyword" : "Key",
+        "title" : "Method Key : K () Property",
+        "description" : "Returns the key contained in the map node."
+    },
+    {
+        "keyword" : "KeyDown",
+        "title" : "Function KeyDown : Int ( key:Int )",
+        "description" : "Returns 1 if the specified key is currently held down, otherwise 0."
+    },
+    {
+        "keyword" : "KeyHit",
+        "title" : "Function KeyHit : Int ( key:Int )",
+        "description" : "<p>Returns the number of times the specified key has been hit since the last OnUpdate.</p><p>Note that any on/off style 'buttons' on any device can be read using the KeyDown and KeyHit commands. For example, to read the state of the left mouse button you can use KeyDown( KEY_LMB ) in addition to MouseDown( MOUSE_LEFT ).</p>"
+    },
+    {
+        "keyword" : "Keys",
+        "title" : "Method Keys : Object ()",
+        "description" : "Returns an object that can be used to iterate through all keys in a map with a For Eachin loop."
+    },
+    {
+        "keyword" : "Kill",
+        "title" : "Method Kill : Void ( exitCode:Int )",
+        "description" : "Kills process."
+    },
+    {
+        "keyword" : "Last",
+        "title" : "Method Last : T ()",
+        "description" : "<p>Returns the last element in the list.</p><p>Using this method on an empty list will cause a runtime error in debug mode, and undefined behavior in release mode.</p>"
+    },
+    {
+        "keyword" : "LastNode",
+        "title" : "Method LastNode : Node<T> ()",
+        "description" : "Returns the last node in the last, or Null if the list is empty."
+    },
+    {
+        "keyword" : "Length",
+        "title" : "Method Length : Int () Property",
+        "description" : "<p>Returns the length, in bytes, of the data buffer.</p><p>Multiple Length methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "List",
+        "title" : "CLASS List<T>",
+        "description" : "A linked list is a container style data structure that provides efficient support for the addition, removal and sequential traversal of objects."
+    },
+    {
+        "keyword" : "Load",
+        "title" : "Function Load : DataBuffer ( path:String )",
+        "description" : "<p>Creates and returns a databuffer containing the binary contents of the specified file.</p><p>If the file does not exist or cannot be read, null is returned instead.</p>"
+    },
+    {
+        "keyword" : "LoadAsync",
+        "title" : "Function LoadAsync : Void ( path:String, onComplete:IOnLoadDataComplete )",
+        "description" : "<p>Loads a databuffer asynchronously.</p><p>When data has finished loading, the OnLoadDataComplete method of the onComplete object is called.</p>"
+    },
+    {
+        "keyword" : "LoadDir",
+        "title" : "Function LoadDir : String[] ( path:String, recursive:Bool=false, hidden:Bool=false )",
+        "description" : "<p>Loads the file names in the directory specified by path into a string array.<br />If recursive is True, LoadDir will also load file and directory names in subdirectories.<br />If hidden is True, then hidden files - files starting with a dot - are also loaded.</p><p>Multiple LoadDir methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "LoadImage",
+        "title" : "Function LoadImage : Image ( path:String, frameCount:Int=1, flags:Int=image.defaultflags )",
+        "description" : "<p>Loads an image from path.<br />The frames of a multi-frame image must be laid out in a single horizontal strip, in which case the width of the image is the width of image file divided by the number of frames, and the height of the image is the height of the image file.<br />The image must be a PNG or JPEG image format, and must have the three-letter file extension .png or .jpg (not .jpeg). PNGs with alpha transparency channels are supported.<br />Like all game data, the image file must be saved in your project's .data folder or one of its sub-folders.<br />If your images contain edge padding, you will need to use one of the padding flags such as XYPadding.<br />See DefaultFlags for a list of valid image flags.</p><p>Multiple LoadImage methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "LoadImageAsync",
+        "title" : "Function LoadImageAsync : Void ( path:String, frames:Int=1, flags:Int=image.defaultflags, onComplete:IOnLoadImageComplete )",
+        "description" : "Begins loading an image asynchronously.<br />Once the image has loaded, the OnLoadImageComplete method of the specified onComplete object will be invoked.<br />Note: When using asynchronous features, your app must continually call the UpdateAsyncEvents function to process async events. This can be done be calling UpdateAsyncEvents once per OnUpdate."
+    },
+    {
+        "keyword" : "LoadImageData",
+        "title" : "Function LoadImageData : DataBuffer ( path:String, info:Int[] )",
+        "description" : "LoadImageData is a helper function that loads an image in your app's .data directory into a databuffer.<br />Upon success, info[0] is initialized to the width of the image, and info[1] is initialized to the height of the image. If the info array is not long enough, info is not written.<br />The image is returned in tightly packed, byte-per-component R,G,B,A format.<p>IMPORTANT: LoadImageData is not currently available on the HTML5 target.</p>"
+    },
+    {
+        "keyword" : "LoadSound",
+        "title" : "Function LoadSound : Sound ( path:String )",
+        "description" : "Loads a sound from the specified path and returns it."
+    },
+    {
+        "keyword" : "LoadSoundAsync",
+        "title" : "Function LoadSoundAsync : Void ( path:String, onComplete:IOnLoadSoundComplete )",
+        "description" : "Begins loading a sound asynchronously.<br />Once the sound has loaded, the OnLoadSoundComplete method of the onComplete object will be invoked.<br />Note: When using asynchronous features, your app must continually call the UpdateAsyncEvents function to process async events. This can be done be calling UpdateAsyncEvents once per OnUpdate."
+    },
+    {
+        "keyword" : "LoadState",
+        "title" : "Function LoadState : String ()",
+        "description" : "Loads a string representing the application's persistant state as previously saved with SaveState.<br />If the application state hasn't yet been previously saved, LoadState returns an empty string.<br />This is generally used to store data such as user preferences and high score tables.<br />Note: On the android target, building and uploading a new version of an application to a device will not clear the application's state. To do this, you must manually uninstall the application from the device first."
+    },
+    {
+        "keyword" : "LoadString",
+        "title" : "Function LoadString : String ( path:String )",
+        "description" : "Loads a string from path."
+    },
+    {
+        "keyword" : "Local",
+        "title" : "Declares a local variable.",
+        "description" : "<p>Syntax</p><p>Local Identifier:Type [ = Expression ]<br />Local Identifier:= Expression</p>"
+    },
+    {
+        "keyword" : "LocalAddress",
+        "title" : "Method LocalAddress : SocketAddress () Property",
+        "description" : "Returns the local address of the socket."
+    },
+    {
+        "keyword" : "Log",
+        "title" : "Function Log : Float ( x:Float )",
+        "description" : "Returns the natural logarithm of x."
+    },
+    {
+        "keyword" : "Map",
+        "title" : "CLASS Map<K,V>",
+        "description" : "A map is a container style object that provides a mechanism for associating key objects with value objects."
+    },
+    {
+        "keyword" : "Max",
+        "title" : "Function Max : Int ( x:Int/Float, y:Int/Float )",
+        "description" : "Returns the maximum of x and y."
+    },
+    {
+        "keyword" : "Method",
+        "title" : "Declares the beginning of a class method.",
+        "description" : "<p>Syntax</p><p>Method Identifier: ReturnType ( Parameters ) [ Property ] [ Abstract ] [ Final ]~n Statements...<br />End [ Method ]</p>"
+    },
+    {
+        "keyword" : "MethodInfo",
+        "title" : "CLASS MethodInfo",
+        "description" : "MethodInfo objects describe methods declared by your program."
+    },
+    {
+        "keyword" : "Millisecs",
+        "title" : "Function Millisecs : Int ()",
+        "description" : "Returns the number milliseconds (thousandths of a second) the application has been running. Divide this by 1000.0 to get the number of seconds the applications has been running."
+    },
+    {
+        "keyword" : "Min",
+        "title" : "Function Min : Int ( x:Int/Float, y:Int/Float )",
+        "description" : "Returns the minimum of x and y."
+    },
+    {
+        "keyword" : "Mod",
+        "title" : "Mod is a mathematical operator which performs the modulo (aka. modulus) function, returning the remainder of a division operation.",
+        "description" : "<p>Syntax</p><p>numerator Mod denominator</p>"
+    },
+    {
+        "keyword" : "MonkeyStore",
+        "title" : "CLASS MonkeyStore",
+        "description" : "The MonkeyStore class allows apps to perform 'in app purchases' (IAP)."
+    },
+    {
+        "keyword" : "MouseDown",
+        "title" : "Function MouseDown : Int ( button:Int )",
+        "description" : "Returns 1 if the specified mouse button is currently held down, otherwise 0."
+    },
+    {
+        "keyword" : "MouseHit",
+        "title" : "Function MouseHit : Int ( button:Int )",
+        "description" : "Returns the number of times the specified mouse button has been pressed since the last OnUpdate."
+    },
+    {
+        "keyword" : "MouseX",
+        "title" : "Function MouseX : Float ()",
+        "description" : "<p>Returns the x coordinate of the mouse pointer.</p><p>On devices with a touch screen but no mouse, MouseX will instead return TouchX( 0 ).</p>"
+    },
+    {
+        "keyword" : "MouseY",
+        "title" : "Function MouseY : Float ()",
+        "description" : "<p>Returns the y coordinate of the mouse pointer.</p><p>On devices with a touch screen but no mouse, MouseY will instead return TouchY( 0 ).</p>"
+    },
+    {
+        "keyword" : "MusicState",
+        "title" : "Function MusicState : Int ()",
+        "description" : "Returns 1 if music is currently playing, 0 if music is currently not playing or -1 if music state cannot be determined."
+    },
+    {
+        "keyword" : "Name",
+        "title" : "Method Name : String () Property",
+        "description" : "<p>Get name of class.</p><p>Multiple Name methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "New",
+        "title" : "Method New ( length:Int )",
+        "description" : "<p>Creates a new data buffer of the specified byte length.<br />Values can be written into the databuffer using the various 'poke' methods, or read using the 'peek' methods.</p><p>Multiple New methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "NewArray",
+        "title" : "Method NewArray : Object ( length:Int )",
+        "description" : "Create a new array box object of this class."
+    },
+    {
+        "keyword" : "NewInstance",
+        "title" : "Method NewInstance : Object ()",
+        "description" : "Create a new object of this class."
+    },
+    {
+        "keyword" : "Next",
+        "title" : "Declares the end of a For/Next loop. See For for details and examples.",
+        "description" : "<p>Syntax</p><p>For Local IndexVar := start_value To end_value [ Step constant_value ]<br />Statements...<br />Next</p><p>For Local IndexVar := start_value Until end_value [ Step constant_value ]<br />Statements...<br />Next</p><p>For Local IndexVar := Eachin value_set<br />Statements...<br />Next</p>"
+    },
+    {
+        "keyword" : "NextNode",
+        "title" : "Method NextNode : Node ()",
+        "description" : "Returns the node after this node, or null if this is the last node in the list."
+    },
+    {
+        "keyword" : "Node",
+        "title" : "CLASS Node",
+        "description" : "See the List class for a discussion of list nodes. Node objects are responsible for mainting the association between keys and values in a map."
+    },
+    {
+        "keyword" : "Not",
+        "title" : "The logical Not operator.",
+        "description" : "<p>Syntax</p><p>[If] Not expression</p>"
+    },
+    {
+        "keyword" : "Null",
+        "title" : "Null is a Monkey constant representing an empty Object reference.",
+        "description" : "<p>Syntax</p><p><br />Null represents an empty Object, thereby allowing comparison between Null and an object's handle in order to determine whether or not the object actually exists.<br />An object's handle may also be set to Null, thereby freeing the object and marking it for garbage collection (assuming no other handles still point to it); however, it is recommended that objects be allowed to go out of scope where possible, rather than nullifying them.</p>"
+    },
+    {
+        "keyword" : "Object",
+        "title" : "CLASS Object",
+        "description" : "The Object class is the common base class for all monkey objects."
+    },
+    {
+        "keyword" : "ObjectEnumerator",
+        "title" : "Method ObjectEnumerator : Object ()",
+        "description" : "<p>Returns an object enumerator for use with For Eachin loops.</p><p>Multiple ObjectEnumerator methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "OnBack",
+        "title" : "Method OnBack : Int ()",
+        "description" : "This method is called when the application's 'back' button is pressed.<br />This method is only used by the android and windows phone 8 targets.<br />By default, the OnBack method calls OnClose. To override this behavior, you must provide your own OnBack method when extending the App class.<br />Important! On Windows Phone 8, The only time you can end an application is when the OS calls your app's OnClose or OnBack method. To end an application, use EndApp."
+    },
+    {
+        "keyword" : "OnBindComplete",
+        "title" : "Method OnBindComplete : Void ( bound:Bool, source:Socket )",
+        "description" : "<p>This method is called when a asynchronous socket bind operation completes.</p><p>bound will be true if the operation was successful.</p>"
+    },
+    {
+        "keyword" : "OnAcceptComplete",
+        "title" : "Method OnAcceptComplete : Void ( socket:Socket, source:Socket )",
+        "description" : "<p>This method is called when an asynchronous socket accept operation completes.</p><p>socket contains the incoming connection</p>"
+    },
+    {
+        "keyword" : "OnBuyProductComplete",
+        "title" : "Method OnBuyProductComplete : Void ( result:Int, product:Product )",
+        "description" : "<p>Called when a BuyProductAsync operation completes.</p><p>result will be one of:<br />-1 (Fatal error), 0 (Success), 1 (Cancelled by user)</p>"
+    },
+    {
+        "keyword" : "OnClose",
+        "title" : "Method OnClose : Int ()",
+        "description" : "This method is called when the application's 'close' button is pressed.<br />This method is only used by the glfw, android and windows 8 targets.<br />By default, the OnClose method calls EndApp. To override this behavior, you must provide your own OnClose method when extending the App class.<br />Important! On Windows Phone 8, The only time you can end an application is when the OS calls your app's OnClose or OnBack method. To end an application, use EndApp."
+    },
+    {
+        "keyword" : "OnConnectComplete",
+        "title" : "Method OnConnectComplete : Void ( connected:Bool, source:Socket )",
+        "description" : "<p>This method is called when a asynchronous socket connect operation completes.</p><p>connected will be true if the connection was successful.</p>"
+    },
+    {
+        "keyword" : "OnCreate",
+        "title" : "Method OnCreate : Int ()",
+        "description" : "The OnCreate method is called when mojo has been initialized and the application has been successfully created.<br />At this point, applications can start loading resources such as images and sounds, and set the update rate using SetUpdateRate.<br />The return value of this method is currently ignored, but should be 0 for future compatibility."
+    },
+    {
+        "keyword" : "OnGetOwnedProductsComplete",
+        "title" : "Method OnGetOwnedProductsComplete : Void ( result:Int, products:Product[] )",
+        "description" : "<p>Called when a GetOwnedProductsAsync operation completes.</p><p>result will be one of:<br />-1 (Fatal error), 0 (Success), 1 (Cancelled by user)</p>"
+    },
+    {
+        "keyword" : "OnHttpRequestComplete",
+        "title" : "Method OnHttpRequestComplete : Void ( request:HttpRequest )",
+        "description" : "Called when an http request completes.<br />If a network error occured, the request status will be -1.<br />Otherwise, the request status will contain the status code returned by the server."
+    },
+    {
+        "keyword" : "OnLoadDataComplete",
+        "title" : "Method OnLoadDataComplete : Void ( data:DataBuffer, path:String )",
+        "description" : "<p>This method is called by LoadAsync when data has finished loading.</p><p>If data is Null, the data load failed.</p>"
+    },
+    {
+        "keyword" : "OnLoadImageComplete",
+        "title" : "Method OnLoadImageComplete : Void ( image:Image, path:String, source:IAsyncEventSource )",
+        "description" : "<p>Called when an image has completed loading.</p><p>If image is null, the load failed.</p>"
+    },
+    {
+        "keyword" : "OnLoadSoundComplete",
+        "title" : "Method OnLoadSoundComplete : Void ( sound:Sound, path:String, source:IAsyncEventSource )",
+        "description" : "<p>Called when a sound has completed loading.</p><p>If sound is null, the load failed.</p>"
+    },
+    {
+        "keyword" : "OnLoading",
+        "title" : "Method OnLoading : Int ()",
+        "description" : "<p>This method is called instead of OnRender when the application should render itself, but there are still resources such as images or sounds in the process of being loaded.</p><p>The return value of this method is currently ignored, but should be 0 for future compatibility.</p>"
+    },
+    {
+        "keyword" : "OnOpenStoreComplete",
+        "title" : "Method OnOpenStoreComplete : Void ( result:Int )",
+        "description" : "<p>Called when the store has finished opening.</p><p>result can be one of:<br />-1 (Fatal error), 0 (Success)</p>"
+    },
+    {
+        "keyword" : "OnReceiveComplete",
+        "title" : "Method OnReceiveComplete : Void ( data:DataBuffer, offset:Int, count:Int, source:Socket )",
+        "description" : "<p>This method is called when an asynchronous socket Receive or ReceiveAll operation completes.</p><p>count contains the number of bytes received.</p>"
+    },
+    {
+        "keyword" : "OnReceiveFromComplete",
+        "title" : "Method OnReceiveFromComplete : Void ( data:DataBuffer, offset:Int, count:Int, address:SocketAddress, source:Socket )",
+        "description" : "<p>This method is called when an asynchronous socket ReceiveFrom operation completes.</p><p>count contains the number of bytes received.</p>"
+    },
+    {
+        "keyword" : "OnRender",
+        "title" : "Method OnRender : Int ()",
+        "description" : "This method is automatically called when the application should render itself, such as when the application first starts, or following an OnUpdate call.<br />If your application is taking to long to update and/render itself, OnRender calls may be skipped to allow it to 'catch up'.<br />The return value of this method is currently ignored, but should be 0 for future compatibility."
+    },
+    {
+        "keyword" : "OnResume",
+        "title" : "Method OnResume : Int ()",
+        "description" : "<p>OnResume is called when your application is made active again after having been in a suspended state.</p><p>The return value of this method is currently ignored, but should be 0 for future compatibility.</p>"
+    },
+    {
+        "keyword" : "OnSendComplete",
+        "title" : "Method OnSendComplete : Void ( data:DataBuffer, offset:Int, count:Int, source:Socket )",
+        "description" : "<p>This method is called when an asynchronous socket Send operation completes.</p><p>counts contains the number of bytes sent, and will either be the same as the number of bytes requested by SendAsync, or 0 if not all bytes could be sent.</p>"
+    },
+    {
+        "keyword" : "OnSendToComplete",
+        "title" : "Method OnSendToComplete : Void ( data:DataBuffer, offset:Int, count:Int, address:SocketAddress, source:Socket )",
+        "description" : "<p>This method is called when an asynchronous socket SendTo operation completes.</p><p>counts contains the number of bytes sent.</p>"
+    },
+    {
+        "keyword" : "OnSuspend",
+        "title" : "Method OnSuspend : Int ()",
+        "description" : "OnSuspend is called when your application is about to be suspended.<br />While suspended, Mojo will make no further calls to any applications 'On' methods, except for OnResume.<br />Note that on some targets such as iOS and Android, OnSuspend represents a 'last chance' to save application data before your application is terminated.<br />The return value from this method is currently ignored, but should be 0 for future compatibility."
+    },
+    {
+        "keyword" : "OnUpdate",
+        "title" : "Method OnUpdate : Int ()",
+        "description" : "This method is automatically called when the application's update timer ticks. Once OnUpdate has been called, mojo will then attempt to call OnRender as soon as possible.<br />Note that OnUpdate is only called if SetUpdateRate has been called to start the update timer. Otherwise, your application will receive OnRender calls only.<br />OnUpdate is commonly used in conjunction with OnRender to manage the main game loop. OnUpdate is typically used to update objects and game state, while OnRender is used to draw graphics.<br />The return value from this method is currently ignored, but should be 0 for future compatibility."
+    },
+    {
+        "keyword" : "Open",
+        "title" : "Function Open : FileStream ( path:String, mode:String )",
+        "description" : "<p>Opens a new filestream. The mode parameter should be one of the following: r', 'w', 'u', 'a'</p><p>Multiple Open methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "OpenStoreAsync",
+        "title" : "Method OpenStoreAsync : Void ( onComplete:IOnOpenStoreComplete )",
+        "description" : "<p>Starts an async operation to open the store.<./p><p>When the operation completes, the OnOpenStoreComplete method of the onComplete object is called.</p>"
+    },
+    {
+        "keyword" : "OpenUrl",
+        "title" : "Function OpenUrl : Int ( url:String )",
+        "description" : "<p>Opens the given url using the underlying operating system.</p><p>OpenUrl is only available on the hltm5, glfw, android, ios and win8 targets. On other targets, OpenUrl does nothing.</p>"
+    },
+    {
+        "keyword" : "Or",
+        "title" : "The logical Or operator.",
+        "description" : "<p>Syntax</p><p>[If] expression Or expression [... ]</p>"
+    },
+    {
+        "keyword" : "ParameterTypes",
+        "title" : "Method ParameterTypes : ClassInfo[] () Property",
+        "description" : "Get function parameter types."
+    },
+    {
+        "keyword" : "ParseValue",
+        "title" : "Method ParseValue : JsonValue ()",
+        "description" : "Parses the value."
+    },
+    {
+        "keyword" : "Password",
+        "title" : "Method Password : String () Property",
+        "description" : "Returns the password part of the url."
+    },
+    {
+        "keyword" : "Path",
+        "title" : "Method Path : String () Property",
+        "description" : "Returns the path part of the url."
+    },
+    {
+        "keyword" : "PauseChannel",
+        "title" : "Function PauseChannel : Int ( channel:Int )",
+        "description" : "Pauses the specified audio channel. Has no effect if the audio channel is already paused or stopped."
+    },
+    {
+        "keyword" : "PauseMusic",
+        "title" : "Function PauseMusic : Int ()",
+        "description" : "Pauses music playback. Has no effect if music is not currently playing."
+    },
+    {
+        "keyword" : "PeekByte",
+        "title" : "Method PeekByte : Int ( address:Int )",
+        "description" : "Returns the 8 bit byte contained in the databuffer at address."
+    },
+    {
+        "keyword" : "PeekBytes",
+        "title" : "Method PeekBytes : Void ( address:Int, bytes:Int[], offset:Int, count:Int )",
+        "description" : "<p>Copies count bytes starting at address from the databuffer to bytes.</p><p>Data is written to bytes starting at index offset.</p>"
+    },
+    {
+        "keyword" : "PeekChar",
+        "title" : "Function PeekChar : Int ( index:Int )",
+        "description" : "<p>Returns the character of the character at the specified index in the keyboard character queue. The character is NOT removed from the keyboard character queue.</p><p>If there is no character at the specified index, 0 is returned.</p>"
+    },
+    {
+        "keyword" : "PeekFloat",
+        "title" : "Method PeekFloat : Float ( address:Int )",
+        "description" : "Returns the 32 bit float value stored in the data buffer at address."
+    },
+    {
+        "keyword" : "PeekFloats",
+        "title" : "Method PeekFloats : Void ( address:Int, floats:Float[], offset:Int, count:Int )",
+        "description" : "<p>Copies count 32 bit floats starting at address from the databuffer to bytes.</p><p>Data is written to data starting at index offset.</p>"
+    },
+    {
+        "keyword" : "PeekInt",
+        "title" : "Method PeekInt : Int ( address:Int )",
+        "description" : "Returns the 32 bit int value contained in the data buffer at address."
+    },
+    {
+        "keyword" : "PeekInts",
+        "title" : "Method PeekInts : Void ( address:Int, ints:Int[], offset:Int, count:Int )",
+        "description" : "<p>Copies count 32 bit ints starting at address from the databuffer to bytes.</p><p>Data is written to ints starting at index offset.</p>"
+    },
+    {
+        "keyword" : "PeekShort",
+        "title" : "Method PeekShort : Int ( address:Int )",
+        "description" : "Returns the 16 bit int value contained in the data buffer at address."
+    },
+    {
+        "keyword" : "PeekShorts",
+        "title" : "Method PeekShorts : Void ( address:Int, shorts:Int[], offset:Int, count:Int )",
+        "description" : "<p>Copies count 16 bit shorts starting at address from the databuffer to bytes.</p><p>Data is written to shorts starting at index offset.</p>"
+    },
+    {
+        "keyword" : "PeekString",
+        "title" : "Method PeekString : String ( address:Int, encoding:String='utf8' )",
+        "description" : "<p>Peeks and returns a string from the data buffer.<br />Data is read from address up until the end of the data buffer.<br />The encoding parameter should be one of: 'utf8' or 'ascii'</p><p>Multiple PeekString methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "PlayMusic",
+        "title" : "Function PlayMusic : Int ( path:String, flags:Int=1 )",
+        "description" : "Plays an audio file through the internal music channel, using audio streaming if possible.<br />Since there is only one music channel, any music currently play will first be stopped.<br />flags should be 1 to loop the music, 0 to play it just once."
+    },
+    {
+        "keyword" : "PlaySound",
+        "title" : "Function PlaySound : Int ( sound:Sound, channel:Int=0, flags:Int=0 )",
+        "description" : "<p>Plays a sound through the specified channel.</p><p>flags should be 1 to loop the sound, 0 to play it just once.</p>"
+    },
+    {
+        "keyword" : "PokeByte",
+        "title" : "Method PokeByte : Void ( address:Int, value:Int )",
+        "description" : "Writes an 8 bit byte into the data buffer at address."
+    },
+    {
+        "keyword" : "PokeBytes",
+        "title" : "Method PokeBytes : Void ( address:Int, bytes:Int[], offset:Int, count:Int )",
+        "description" : "<p>Copies count 8 bit bytes from the bytes array to the databuffer.</p><p>offset is the starting index within the source array, and address is the starting byte address within the databuffer.</p>"
+    },
+    {
+        "keyword" : "PokeFloat",
+        "title" : "Method PokeFloat : Void ( address:Int, value:Float )",
+        "description" : "Writes a 32 bit float value into the data buffer at address."
+    },
+    {
+        "keyword" : "PokeFloats",
+        "title" : "Method PokeFloats : Void ( address:Int, floats:Int[], offset:Int, count:Int )",
+        "description" : "<p>Copies count 32 bit floats from the floats array to the databuffer.</p><p>offset is the starting index within the source array, and address is the starting byte address within the databuffer.</p>"
+    },
+    {
+        "keyword" : "PokeInt",
+        "title" : "Method PokeInt : Void ( address:Int, value:Int )",
+        "description" : "Writes a 32 bit int value into the data buffer at address."
+    },
+    {
+        "keyword" : "PokeInts",
+        "title" : "Method PokeInts : Void ( address:Int, ints:Int[], offset:Int, count:Int )",
+        "description" : "<p>Copies count 32 bit ints from the ints array to the databuffer.</p><p>offset is the starting index within the source array, and address is the starting byte address within the databuffer.</p>"
+    },
+    {
+        "keyword" : "PokeShort",
+        "title" : "Method PokeShort : Void ( address:Int, value:Int )",
+        "description" : "Writes a 16 bit int value into the data buffer at address."
+    },
+    {
+        "keyword" : "PokeShorts",
+        "title" : "Method PokeShorts : Void ( address:Int, shorts:Int[], offset:Int, count:Int )",
+        "description" : "<p>Copies count 16 bit shorts from the shorts array to the databuffer.</p><p>offset is the starting index within the source array, and address is the starting byte address within the databuffer.</p>"
+    },
+    {
+        "keyword" : "PokeString",
+        "title" : "Method PokeString : Int ( address:Int, value:String, encoding:String='utf8' )",
+        "description" : "<p>Pokes value into the data buffer at location address.</p><p>The encoding parameter should be one of: 'utf8' or 'ascii'</p>"
+    },
+    {
+        "keyword" : "Pool",
+        "title" : "CLASS Pool<T>",
+        "description" : "A pool object allows you to manually allocate and free objects from a memory pool."
+    },
+    {
+        "keyword" : "Pop",
+        "title" : "Method Pop : T ()",
+        "description" : "Removes the item at the top of the stack and returns it.<br />This will decrease the length of the stack by 1.<br />If the stack is empty, the behaviour of Pop is undefined."
+    },
+    {
+        "keyword" : "PopFirst",
+        "title" : "Method PopFirst : T ()",
+        "description" : "<p>Removes an item from the beginning of the deque.</p><p>If the deque is empty, a runtime error occurs.</p>"
+    },
+    {
+        "keyword" : "PopLast",
+        "title" : "Method PopLast : T ()",
+        "description" : "<p>Removes an item from the end of the deque.</p><p>If the deque is empty, a runtime error occurs.</p>"
+    },
+    {
+        "keyword" : "PopMatrix",
+        "title" : "Function PopMatrix : Int ()",
+        "description" : "Pops a matrix from the internal matrix stack and makes it the current matrix."
+    },
+    {
+        "keyword" : "Port",
+        "title" : "Method Port : Int () Property",
+        "description" : "Returns the socket address port."
+    },
+    {
+        "keyword" : "Position",
+        "title" : "Method Position : Int () Property",
+        "description" : "Returns the read/write position within the stream if the stream is seekable, else 0."
+    },
+    {
+        "keyword" : "Pow",
+        "title" : "Function Pow : Float ( x:Float, y:Float )",
+        "description" : "Returns x raised to the power y."
+    },
+    {
+        "keyword" : "PrettifyLine",
+        "title" : "Method PrettifyLine : String ( text:String )",
+        "description" : "This method is called by a Markdown object for every line inside a <pre> block, and should returned an html 'prettified' version of text."
+    },
+    {
+        "keyword" : "PrevNode",
+        "title" : "Method PrevNode : Node ()",
+        "description" : "Returns the node before this node, or null if this is the first node in the list."
+    },
+    {
+        "keyword" : "Price",
+        "title" : "Method Price : String () Property",
+        "description" : "The localized product price."
+    },
+    {
+        "keyword" : "Print",
+        "title" : "Function Print : Int ( message:String )",
+        "description" : "<p>Prints message to the current output channel.</p><p>The behavior of Print is target dependant. In general, monkey will attempt to print to the 'stdout' output channel, but on some targets this is not always an option.</p>"
+    },
+    {
+        "keyword" : "Private",
+        "title" : "Declares following code as private to local module or class.",
+        "description" : "<p>Syntax</p><p>Private</p>"
+    },
+    {
+        "keyword" : "Property",
+        "title" : "Declares method as property.",
+        "description" : "<p>Syntax</p><p>Method Identifier: ReturnType ( Parameters ) [ Property ] [ Abstract ] [ Final ]<br />Statements...<br />End [ Method ]</p"
+    },
+    {
+        "keyword" : "Protocol",
+        "title" : "Method Protocol : String () Property",
+        "description" : "Returns the socket protocol, either 'stream', 'server', or 'datagram'."
+    },
+    {
+        "keyword" : "Public",
+        "title" : "Declares following code as publicly accessible.",
+        "description" : "<p>Syntax</p><p>Public</p>"
+    },
+    {
+        "keyword" : "Push",
+        "title" : "Method Push : Void ( value:T )",
+        "description" : "<p>Pushes a value on the top of the stack.</p><p>This will increase the length of the stack by 1.</p><p>Multiple Push methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "PushFirst",
+        "title" : "Method PushFirst : Void ( value:T )",
+        "description" : "Adds an item to the beginning of the deque."
+    },
+    {
+        "keyword" : "PushJson",
+        "title" : "Method PushJson : Void ( buf:StringStack )",
+        "description" : "Check main documentation"
+    },
+    {
+        "keyword" : "PushLast",
+        "title" : "Method PushLast : Void ( value:T )",
+        "description" : "Adds an item to the end of the deque."
+    },
+    {
+        "keyword" : "PushMatrix",
+        "title" : "Function PushMatrix : Int ()",
+        "description" : "<p>Pushes the current matrix onto the internal matrix stack.</p><p>The matrix can be restored at a later time using PopMatrix.</p>"
+    },
+    {
+        "keyword" : "Put",
+        "title" : "Method Put : Int ( data:DataBuffer, offset:Int, count:Int )",
+        "description" : "Copies count bytes from data/offset and adds them to the end of the ringbuffer.<br />Returns the number of bytes actually transferred.<br />If the buffer is dynamic, this method will reallocate the internal databuffer as necessary so that all count bytes are always added."
+    },
+    {
+        "keyword" : "Query",
+        "title" : "Method Query : String () Property",
+        "description" : "Returns the query part of the url."
+    },
+    {
+        "keyword" : "Read",
+        "title" : "Method Read : Int ( buffer:DataBuffer, offset:Int, count:Int )",
+        "description" : "Reads count bytes from the stream into databuffer, starting at address offset within the databuffer.<br />Returns the number of bytes actually read. This may be less than count if an IO error occurs or end-of-file has been reached.<br />If count is non-zero, this method will block until either at least 1 byte is available to be read, an IO error occurs or end-of-file has been reached."
+    },
+    {
+        "keyword" : "ReadAll",
+        "title" : "Method ReadAll : Void ( buffer:DataBuffer, offset:int, count:int )",
+        "description" : "<p>Reads count bytes from the stream into databuffer, starting at address offset within the databuffer.<br />If count is non-zero, this method will block until all bytes have been read.<br />A StreamReadError is thrown if not all bytes could be read.</p><p>Multiple ReadAll methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "ReadByte",
+        "title" : "Method ReadByte : Int ()",
+        "description" : "<p>Reads an 8 bit byte from the stream.</p><p>A StreamReadError will be thrown if a value could not be read.</p>"
+    },
+    {
+        "keyword" : "ReadFloat",
+        "title" : "Method ReadFloat : Float ()",
+        "description" : "<p>Reads a 32 bit float value from the stream.</p><p>A StreamReadError will be thrown if a value could not be read.</p>"
+    },
+    {
+        "keyword" : "ReadInt",
+        "title" : "Method ReadInt : Int ()",
+        "description" : "<p>Reads a 32 bit int value from the stream.</p><p>A StreamReadError will be thrown if a value could not be read.</p>"
+    },
+    {
+        "keyword" : "ReadPixels",
+        "title" : "Function ReadPixels : Void ( pixels:Int[], x:Int, y:Int, width:Int, height:Int, arrayOffset:Int=0, arrayPitch:Int=0 )",
+        "description" : "Copies a rectangular section of pixels from the current render buffer into an int array.<br />The pixel data is stored in int-per-pixel ARGB format, with the alpha component stored in bits 24-31, the red component in bits 16-23, the green component in bits 8-15 and the blue component in bits 0-7.<br />The optional arrayOffset parameter allows you to specify an index into the array at which to start writing pixel values.<br />The optional arrayPitch parameter allows you to specify a 'pitch'. This is the number of array elements between successive rows in the array. If this is 0, then width is used as pitch, meaning pixel data is assumed to be 'tightly packed'."
+    },
+    {
+        "keyword" : "ReadShort",
+        "title" : "Method ReadShort : Int ()",
+        "description" : "<p>Reads a 16 bit int value from the stream.</p><p>A StreamReadError will be thrown if a value could not be read.</p>"
+    },
+    {
+        "keyword" : "ReadStderr",
+        "title" : "Method ReadStderr : Int ( buffer:DataBuffer, offset:Int, count:Int )",
+        "description" : "Reads bytes from process stderr into buffer.<br />Returns the number of bytes read.<br />If the process is running and no bytes are available to be read, this method will block until at least 1 byte has been read.<br />If the process has finished and no bytes are available to be read, this method will return 0."
+    },
+    {
+        "keyword" : "ReadStdout",
+        "title" : "Method ReadStdout : Int ( buffer:DataBuffer, offset:Int, count:Int )",
+        "description" : "Reads bytes from process stdout into buffer.<br />Returns the number of bytes read.<br />If the process is running and no bytes are available to be read, this method will block until at least 1 byte has been read.<br />If the process has finished and no bytes are available to be read, this method will return 0."
+    },
+    {
+        "keyword" : "ReadString",
+        "title" : "Method ReadString : String ( count:Int, encoding:String='utf8' )",
+        "description" : "<p>Reads count bytes from the stream and converts them to a string using the given encoding.</p><p>encoding should be utf8 or ascii.</p><p>Multiple ReadString methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "RealPath",
+        "title" : "Function RealPath : String ( path:String )",
+        "description" : "Returns the real, or 'absolute', file system path corresponding to the given path."
+    },
+    {
+        "keyword" : "Receive",
+        "title" : "Method Receive : Int ( data:DataBuffer, offset:Int, count:Int )",
+        "description" : "Receives data from a remote host and returns the number of bytes received.<br />The method blocks until either at least 1 byte of data has been received or the socket is closed.<br />The socket must be a connected stream or connected datagram socket."
+    },
+    {
+        "keyword" : "ReceiveAll",
+        "title" : "Method ReceiveAll : Int ( data:DataBuffer, offset:Int, count:Int )",
+        "description" : "Receives data from a remote host and returns the number of bytes received.<br />The method blocks until either count bytes of data have been received or the socket is closed.<br />The socket must be a connected stream or connected datagram socket."
+    },
+    {
+        "keyword" : "ReceiveAllAsync",
+        "title" : "Method ReceiveAllAsync : Int ( data:DataBuffer, offset:Int, count:Int, onComplete:IOnReceiveComplete )",
+        "description" : "Receives data from a remote host asynchronously.<br />The method returns immediately. Once either count bytes of data have been received or the socket is closed, the OnReceiveComplete method of the onComplete object is called.<br />The socket must be a connected stream or connected datagram socket.<br />Note: Be careful not to modify data or address while the operation is in progress."
+    },
+    {
+        "keyword" : "ReceiveAsync",
+        "title" : "Method ReceiveAsync : Int ( data:DataBuffer, offset:Int, count:Int, onComplete:IOnReceiveComplete )",
+        "description" : "Receives data from a remote host asynchronously.<br />The method returns immediately. Once at least 1 byte of data has been received or the socket is closed, the OnReceiveComplete method of the onComplete object is called.<br />The socket must be a connected stream or connected datagram socket.<br />Note: Be careful not to modify data or address while the operation is in progress."
+    },
+    {
+        "keyword" : "ReceiveFrom",
+        "title" : "Method ReceiveFrom : Int ( data:DataBuffer, offset:Int, count:Int, address:SocketAddress )",
+        "description" : "Receives data from a remote host and returns the number of bytes received.<br />The method blocks until at least 1 byte of data is available or the socket is closed.<br />The address of the remote host that the data was sent from is written to address.<br />The socket must be an unconnected datagram socket."
+    },
+    {
+        "keyword" : "ReceiveFromAsync",
+        "title" : "Method ReceiveFromAsync : Int ( data:DataBuffer, offset:Int, count:Int, address:SocketAddress, onComplete:IOnReceiveFromComplete )",
+        "description" : "Receives data from a remote host asynchronously.<br />The method returns immediately. Once at least 1 byte of data has been received or the socket is closed, the OnReceiveFromComplete method of the onComplete object is called.<br />The socket must be an unconnected datagram socket.<br />Note: Be careful not to modify data or address while the operation is in progress."
+    },
+    {
+        "keyword" : "RemoteAddress",
+        "title" : "Method RemoteAddress : SocketAddress () Property",
+        "description" : "Returns the remote address of the socket."
+    },
+    {
+        "keyword" : "Remove",
+        "title" : "Method Remove : Int ()",
+        "description" : "<p>Removes this node from the list.</p><p>This method should only be used once - attempting to remove a node twice will result in a null object error.</p><p>Multiple Remove methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "RemoveAsyncEventSource",
+        "title" : "Function RemoveAsyncEventSource : Void ( source:IAsyncEventSource )",
+        "description" : "Removes source from the global list of event sources to be processed by UpdateAsyncEvents."
+    },
+    {
+        "keyword" : "RemoveEach",
+        "title" : "Method RemoveEach : Int ( value:T )",
+        "description" : "<p>Finds and removes each element in the list equal to value.</p><p>Multiple RemoveEach methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "RemoveFirst",
+        "title" : "Method RemoveFirst : T ()",
+        "description" : "<p>Removes the first value in the list and returns it.</p><p>Using this method on an empty list will cause a runtime error in debug mode, and undefined behavior in release mode.</p><p>Multiple RemoveFirst methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "RemoveLast",
+        "title" : "Method RemoveLast : T ()",
+        "description" : "<p>Removes the last value in the list and returns it.</p><p>Using this method on an empty list will cause a runtime error in debug mode, and undefined behavior in release mode.</p><p>Multiple RemoveLast methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "Repeat",
+        "title" : "Marks the start of a Repeat loop.",
+        "description" : "<p>Syntax</p><p>Repeat<br />Statements...<br />Until expression</p><p>Repeat<br />Statements...<br />Forever</p>"
+    },
+    {
+        "keyword" : "Replace",
+        "title" : "Method Replace : String ( findStr:String, replaceStr:String )",
+        "description" : "Replaces all occurrences of findStr with replaceStr and returns the result."
+    },
+    {
+        "keyword" : "ReportAchievement",
+        "title" : "Method ReportAchievement : Void ( percentComplete:Float, achievement_ID:String )",
+        "description" : "<p>Report an achievement to Game Center.</p><p>The achievement_ID parameter should match the achievement ID specified in iTunes connect when the achievement was created.</p>"
+    },
+    {
+        "keyword" : "ReportScore",
+        "title" : "Method ReportScore : Void ( value:Int, leaderboard_ID:String )",
+        "description" : "<p>Report a score to Game Center.</p><p>The leaderboard_ID parameter should match the leaderboard ID specified in iTunes connect when the leaderboard was created.</p>"
+    },
+    {
+        "keyword" : "Resize",
+        "title" : "Method Resize : Void[] ( newLength:Int )",
+        "description" : "Returns a copy of this array, resized to newLength."
+    },
+    {
+        "keyword" : "ResolveLink",
+        "title" : "Method ResolveLink : String ( link:String, text:String )",
+        "description" : "This method is called when a Markdown object needs to resolve a link.<br />The link parameter contains the link to be resolved, and text contains the optional link text.<br />This method should return an html <a>...</a> entity."
+    },
+    {
+        "keyword" : "ResponseText",
+        "title" : "Method ResponseText : String ()",
+        "description" : "The response text returned by the server once the request has completed."
+    },
+    {
+        "keyword" : "ResumeChannel",
+        "title" : "Function ResumeChannel : Int ( channel:Int )",
+        "description" : "Resumes the specified audio channel. Has no effect if the audio channel is not currently paused."
+    },
+    {
+        "keyword" : "ResumeMusic",
+        "title" : "Function ResumeMusic : Int ()",
+        "description" : "Resumes music playback. Has no effect if music is not currently paused."
+    },
+    {
+        "keyword" : "Return",
+        "title" : "The Return keyword causes program flow to exit a function or method and return a value to the calling statement.",
+        "description" : "<p>Syntax</p><p>Return value</p>"
+    },
+    {
+        "keyword" : "ReturnType",
+        "title" : "Method ReturnType : ClassInfo () Property",
+        "description" : "Get return type of function."
+    },
+    {
+        "keyword" : "Rnd",
+        "title" : "Function Rnd : Float ()",
+        "description" : "<p>Returns a random float in the range 0 (inclusive) to 1 (exclusive).</p><p>Multiple Rnd methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "Rotate",
+        "title" : "Function Rotate : Int ( angle:Float )",
+        "description" : "Multiplies the current matrix by a matrix representing the specified rotation."
+    },
+    {
+        "keyword" : "SaveState",
+        "title" : "Function SaveState : Int ( state:String )",
+        "description" : "Saves a string representing the application's persistant state.<br />This is generally used to store data such as user preferences and high score tables.<br />Note: On the android target, building and uploading a new version of an application to a device will not clear the application's state. To do this, you must manually uninstall the application from the device first."
+    },
+    {
+        "keyword" : "SaveString",
+        "title" : "Function SaveString : Int ( str:String, path:String )",
+        "description" : "<p>Saves str to a file specified by path.</p><p>If a file already exists at path, it will be overwritten.</p>"
+    },
+    {
+        "keyword" : "Scale",
+        "title" : "Function Scale : Int ( x:Float, y:Float )",
+        "description" : "Multiplies the current matrix by a matrix representing the specified scale."
+    },
+    {
+        "keyword" : "Scheme",
+        "title" : "Method Scheme : String () Property",
+        "description" : "Returns the scheme part of the url."
+    },
+    {
+        "keyword" : "Seed",
+        "title" : "Global Seed : Int",
+        "description" : "The current random number generator seed used by Rnd."
+    },
+    {
+        "keyword" : "Seek",
+        "title" : "Method Seek : Int ( position:Int )",
+        "description" : "If the stream is seekable, adjusts the read/write position within the stream and returns the new read/write position."
+    },
+    {
+        "keyword" : "Select",
+        "title" : "Marks the start of a conditional Select block.",
+        "description" : "<p>Syntax</p><p>Select expression<br />Case statements...<br />End Select</p><p>Select expression<br />Case statements...<br />End</p>"
+    },
+    {
+        "keyword" : "Self",
+        "title" : "Object's own reference.",
+        "description" : "<p>Syntax</p><p>Self</p>"
+    },
+    {
+        "keyword" : "Send",
+        "title" : "Method Send : Void ()",
+        "description" : "<p>Sends an http request.<br />Once complete, the OnHttpRequestComplete method of the IOnHttpRequestComplete object passed to the construtor will be called.<br />Your application must continously call UpdateAsyncEvents at regular intervals (for example, once per OnUpdate) while an http request operation is in progress.</p><p>Multiple Send methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "SendAsync",
+        "title" : "Method SendAsync : Int ( data:DataBuffer, offset:Int, count:Int, onComplete:IOnSendComplete )",
+        "description" : "Sends data to a remote host asynchronously.<br />The method returns immediately. Once all bytes of data have bben been sent or the socket is closed, the OnSendComplete method of the onComplete object is called.<br />The socket must be a connected stream or connected datagram socket.<br />Note: Be careful not to modify data while the operation is in progress."
+    },
+    {
+        "keyword" : "SendTo",
+        "title" : "Method SendTo : Int ( data:DataBuffer, offset:Int, count:Int, address:SocketAddress )",
+        "description" : "Sends data to the remote host specified by address and returns the number of bytes sent.<br />The method blocks until either all bytes have been sent or the socket is closed.<br />The socket must be an unconnected datagram socket."
+    },
+    {
+        "keyword" : "SendToAsync",
+        "title" : "Method SendToAsync : Int ( data:DataBuffer, offset:Int, count:Int, address:SocketAddress, onComplete:IOnSendToComplete )",
+        "description" : "Sends data to the remote host specified by address asynchronously.<br />The method returns immediately. Once all bytes of data have been sent or the socket is closed, the OnSendToComplete method of the onComplete object is called.<br />The socket must be an unconnected datagram socket.<br />Note: Be careful not to modify data or address while the operation is in progress."
+    },
+    {
+        "keyword" : "Set",
+        "title" : "Method Set : Void ( key:String, value:JsonValue )",
+        "description" : "<p>Multiple Set methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "SetAlpha",
+        "title" : "Function SetAlpha : Int ( alpha:Float )",
+        "description" : "Sets the current global alpha level.<br />Alpha controls the 'mixing' that occurs when rendering. An alpha value of 1 results in completely opaque rendering, while 0 results in completely transparent rendering.<br />In the case of images which contain alpha, the alpha used for rendering is the product of each image pixel's alpha and the current global alpha.<br />Global alpha affects all drawing operations except for Cls."
+    },
+    {
+        "keyword" : "SetBlend",
+        "title" : "Function SetBlend : Int ( blend:Int )",
+        "description" : "Sets the current blending mode.<br />The current blending mode affects all drawing commands except for Cls.<br />The blend parameter can be one of the following: AlphaBlend, AdditiveBlend"
+    },
+    {
+        "keyword" : "SetBool",
+        "title" : "Method SetBool : Void ( key:String, value:Bool )",
+        "description" : "<p>Multiple SetBool methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "SetChannelPan",
+        "title" : "Function SetChannelPan : Int ( channel:Int, pan:Float )",
+        "description" : "Sets the pan of the specified audio channel."
+    },
+    {
+        "keyword" : "SetChannelRate",
+        "title" : "Function SetChannelRate : Int ( channel:Int, rate:Float )",
+        "description" : "<p>Sets the playback rate of the specified audio channel.</p><p>This will affect the pitch of the sound being played.</p>"
+    },
+    {
+        "keyword" : "SetChannelVolume",
+        "title" : "Function SetChannelVolume : Int ( channel:Int, volume:Float )",
+        "description" : "Sets the volume of the specified audio channel."
+    },
+    {
+        "keyword" : "SetColor",
+        "title" : "Function SetColor : Int ( r:Float, g:Float, b:Float )",
+        "description" : "Sets the current color.<br />The current color is used by all drawing operations except Cls.<br />Note: Drawing images in any color other than 255,255,255 on the HTML5 target will incur a major runtime overhead. For best results on the HTML5 target, either use colored images sparingly, or consider using 'pre-colored' images stored in multiple image files."
+    },
+    {
+        "keyword" : "SetElement",
+        "title" : "Method SetElement : Void ( inst:Object, index:Int, value:Object )",
+        "description" : "Set an array element."
+    },
+    {
+        "keyword" : "SetEnv",
+        "title" : "Function SetEnv : Int ( name:String, value:String )",
+        "description" : "Sets an environment variable."
+    },
+    {
+        "keyword" : "SetFloat",
+        "title" : "Method SetFloat : Void ( key:String, value:Float )",
+        "description" : "<p>Multiple SetFloat methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "SetFont",
+        "title" : "Function SetFont : Int ( font:Image, firstChar:Int=32 )",
+        "description" : "Sets the font for use with DrawText.<br />The font parameter may be Null, in which case an internal 7x11 white-on-black font is used and the firstChar parameter is ignored.<br />Note: The font functionality in mojo is very limited and intended mainly for debugging purposes"
+    },
+    {
+        "keyword" : "SetHandle",
+        "title" : "Method SetHandle : Int ( tx:Float, ty:Float )",
+        "description" : "Sets the image offset handle for this image. The handle is a 2D offset subtracted from the x,y coordinates of the image when it is drawn.<br />By default, images have a handle of 0,0, meaning the top-left pixel appears at the coordinates used in DrawImage.<br />By specifying Image.MidHandle when loading or grabbing an image - or by setting Image.Default flags to Image.MidHandle before hand - images will automatically be handled by their centre instead.<br />The image handle is subtracted before rotation and scale are applied providing a 'local' origin."
+    },
+    {
+        "keyword" : "SetHeader",
+        "title" : "Method SetHeader : Void ( name:String, value:String )",
+        "description" : "Sets an http request header option."
+    },
+    {
+        "keyword" : "SetInt",
+        "title" : "Method SetInt : Void ( key:String, value:Int )",
+        "description" : "<p>Multiple SetInt methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "SetMatrix",
+        "title" : "Function SetMatrix : Int ( m:Float[] / ix:Float, iy:Float, jx:Float, jy:Float, tx:Float, ty:Float)",
+        "description" : "Sets the current matrix."
+    },
+    {
+        "keyword" : "SetMusicVolume",
+        "title" : "Function SetMusicVolume : Int ( volume:Float )",
+        "description" : "Sets the music volume.<br />If music is currently playing, this will set the music volume immediately.<br />Whether or not music is playing, this will set the volume to be used the next time PlayMusic is called."
+    },
+    {
+        "keyword" : "SetScissor",
+        "title" : "Function SetScissor : Int ( x:Float, y:Float, width:Float, height:Float )",
+        "description" : "Sets the current scissor rectangle to the rectangle specified by x, y, width and height.<br />All drawing commands are 'clipped' to the current scissor rectangle. To disable clipping, set the scissor rectangle to 0,0,DeviceWidth,DeviceHeight.<br />The rectangle coordinates used with SetScissor are device coordinates, and are not affected by the current matrix."
+    },
+    {
+        "keyword" : "SetString",
+        "title" : "Method SetString : Void ( key:String, value:String )",
+        "description" : "<p>Multiple SetString methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "SetUpdateRate",
+        "title" : "Function SetUpdateRate : Int ( hertz:Int )",
+        "description" : "Sets the application's update rate.<br />This is the number of times per second that the application's OnUpdate method should be called. Commonly used update rates are 15, 30 or 60 updates per second.<br />OnRender is also called at the same frequency if possible (after each OnUpdate), meaning SetUpdateRate effectively also sets the target frames per second."
+    },
+    {
+        "keyword" : "SetValue",
+        "title" : "Method SetValue : Void ( inst:Object, value:Object )",
+        "description" : "<p>Set field value.</p><p>Multiple SetValue methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "Sgn",
+        "title" : "Function Sgn : Int ( x:Int / X:Float )",
+        "description" : "Returns -1 if x is less than zero, +1 if x is greater than zero or 0 if x is equal to zero."
+    },
+    {
+        "keyword" : "Shl",
+        "title" : "Shl is a binary operator that performs the shift to left function.",
+        "description" : "<p>Syntax</p><p>value Shl shift amount</p>"
+    },
+    {
+        "keyword" : "ShowAchievments",
+        "title" : "Method ShowAchievments : Void ()",
+        "description" : "<p>Shows game achievements.</p><p>While game achievements are showing your game will continue to update (OnUpdate will continue to be called), however GameCenterState will return 4.</p>"
+    },
+    {
+        "keyword" : "ShowAdView",
+        "title" : "Method ShowAdView : Void ( style:Int=1, layout:Int=2 )",
+        "description" : "<p>Shows the ad view and enables ads. The style and layout parameters should be one of the following:</p><p>Style 1 (Standard banner), 2 (Smart banner portrait), 3 (Smart banner landscape)</p><p>Layout 1 (Top left), 2 (Top center), 3 (Top right), 4 (Bottom left), 5 (Bottom center), 6 (Bottom right)</p>"
+    },
+    {
+        "keyword" : "ShowLeaderboard",
+        "title" : "Method ShowLeaderboard : Void ( leaderboard_ID:String )",
+        "description" : "<p>Shows the leaderboard with the given id.</p><p>While a leaderboard is showing your game will continue to update (OnUpdate will continue to be called), however GameCenterState will return 3.</p>"
+    },
+    {
+        "keyword" : "ShowMouse",
+        "title" : "Function ShowMouse : Void ()",
+        "description" : "Shows the mouse pointer if the underlying operation system supports a mouse."
+    },
+    {
+        "keyword" : "Shr",
+        "title" : "Shr is a binary operator that performs the (signed) shift to right function.",
+        "description" : "<p>Syntax</p><p>value Shr shift amount</p>"
+    },
+    {
+        "keyword" : "Sin",
+        "title" : "Function Sin : Float ( x:Float )",
+        "description" : "Returns the sine of x degrees."
+    },
+    {
+        "keyword" : "Sinr",
+        "title" : "Function Sinr : Float ( x:Float )",
+        "description" : "Returns the sine of x radians."
+    },
+    {
+        "keyword" : "Sort",
+        "title" : "Method Sort : Int ( ascending:Int )",
+        "description" : "Sorts the list."
+    },
+    {
+        "keyword" : "Split",
+        "title" : "Method Split : String[] ( separator:String )",
+        "description" : "Splits this string into an array of pieces, using the separator string to delimit each piece."
+    },
+    {
+        "keyword" : "Sqrt",
+        "title" : "Function Sqrt : Float ( x:Float )",
+        "description" : "Returns the square root of x."
+    },
+    {
+        "keyword" : "Start",
+        "title" : "Method Start : Void ( cmd:String )",
+        "description" : "<p>Starts process.</p><p>Returns true if process started successfully.</p>"
+    },
+    {
+        "keyword" : "StartGameCenter",
+        "title" : "Method StartGameCenter : Void ()",
+        "description" : "<p>Starts Game Center.</p><p>Once started, you should wait until GameCenterState returns 2 before using any Game Center functionality.</p>"
+    },
+    {
+        "keyword" : "StartsWith",
+        "title" : "Method StartsWith : Bool ( str:String )",
+        "description" : "Returns true if the string starts with str, else false."
+    },
+    {
+        "keyword" : "Status",
+        "title" : "Method Status : Int ()",
+        "description" : "The status returned by the server once the request has completed."
+    },
+    {
+        "keyword" : "StderrAvail",
+        "title" : "Method StderrAvail : Int ()",
+        "description" : "Returns the number of bytes available to be read from process stderr."
+    },
+    {
+        "keyword" : "StdoutAvail",
+        "title" : "Method StdoutAvail : Int ()",
+        "description" : "Returns the number of bytes available to be read from process stdout."
+    },
+    {
+        "keyword" : "Step",
+        "title" : "Optional For/Next loop modifier specifying size of iteration step. See For for details and examples.",
+        "description" : "<p>Syntax</p><p>For Local IndexVar := start_value To end_value [ Step constant_value ]<br />Statements...<br />Next</p>"
+    },
+    {
+        "keyword" : "StopChannel",
+        "title" : "Function StopChannel : Int ( channel:Int )",
+        "description" : "Stops the specified audio channel."
+    },
+    {
+        "keyword" : "StopMusic",
+        "title" : "Function StopMusic : Int ()",
+        "description" : "Stops any music currently playing."
+    },
+    {
+        "keyword" : "Strict",
+        "title" : "Enables monkey's Strict syntax mode.",
+        "description" : "<p>Syntax</p><p>Strict</p>"
+    },
+    {
+        "keyword" : "StringClass",
+        "title" : "Function StringClass : ClassInfo ()",
+        "description" : "<p>Returns the class of a 'string'.</p><p>This is actually the class of the objects used to box strings, since strings aren't objects and therefore don't have a class.</p>"
+    },
+    {
+        "keyword" : "StringDeque",
+        "title" : "CLASS StringDeque",
+        "description" : "StringDeque is a convenience class for handling deques of string values."
+    },
+    {
+        "keyword" : "StringList",
+        "title" : "CLASS StringList",
+        "description" : "StringList is a convenience class for handling lists of string values."
+    },
+    {
+        "keyword" : "StringMap",
+        "title" : "CLASS StringMap<V>",
+        "description" : "A StringMap is a convenience class for mapping strings to values."
+    },
+    {
+        "keyword" : "StringObject",
+        "title" : "CLASS StringObject",
+        "description" : "The StringObject box class can be used to encapsulate a string value inside an object."
+    },
+    {
+        "keyword" : "StringSet",
+        "title" : "CLASS StringSet",
+        "description" : "StringSet is a convenience class for managing sets of strings."
+    },
+    {
+        "keyword" : "StringStack",
+        "title" : "CLASS StringStack",
+        "description" : "A StringStack is a convenience class for dealing with stacks of strings."
+    },
+    {
+        "keyword" : "StringValue",
+        "title" : "Method StringValue : String ()",
+        "description" : "<p>Throws a JsonError if object is not a JsonString.</p>"
+    },
+    {
+        "keyword" : "StripAll",
+        "title" : "Function StripAll : String ( path:String )",
+        "description" : "<p>Removes both the directory and file type extension from a file path.</p><p>Multiple StripAll methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "StripDir",
+        "title" : "Function StripDir : String ( path:String )",
+        "description" : "<p>Removes the directory from a file path.</p><p>Multiple StripDir methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "StripExt",
+        "title" : "Function StripExt : String ( path:String )",
+        "description" : "<p>Removes the file type extension from a file path.</p><p>Multiple StripExt methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "Super",
+        "title" : "Provides parent class access.",
+        "description" : "<p>Syntax</p><p>Super</p>"
+    },
+    {
+        "keyword" : "SuperClass",
+        "title" : "Method SuperClass : ClassInfo () Property",
+        "description" : "Get super class of class."
+    },
+    {
+        "keyword" : "Tan",
+        "title" : "Function Tan : Float ( x:Float )",
+        "description" : "Returns the tangent of x degrees."
+    },
+    {
+        "keyword" : "Tanr",
+        "title" : "Function Tanr : Float ( x:Float )",
+        "description" : "Returns the tangent of x radians."
+    },
+    {
+        "keyword" : "TcpStream",
+        "title" : "CLASS TcpStream",
+        "description" : "A tcp stream represents a synchronous tcp connection to a host on the internet."
+    },
+    {
+        "keyword" : "TextWidth",
+        "title" : "Function TextWidth : Float ( text:String )",
+        "description" : "Returns the width of the given text."
+    },
+    {
+        "keyword" : "Then",
+        "title" : "Optional separator used for readability in If blocks.",
+        "description" : "<p>Syntax</p><p>If expression [Then]<br />Statements...<br />Endif</p><p>If expression [Then] Statements...</p>"
+    },
+    {
+        "keyword" : "Throw",
+        "title" : "The Throw keyword is part of the Try/Catch exception-handling construct. See Try for more details on exception handling.",
+        "description" : "<p>Syntax</p><p>Throw exception</p>"
+    },
+    {
+        "keyword" : "Throwable",
+        "title" : "CLASS Throwable",
+        "description" : "The Throwable class must be extended by all classes that are intended to be used with Throw."
+    },
+    {
+        "keyword" : "Title",
+        "title" : "Method Title : String () Property",
+        "description" : "The product title."
+    },
+    {
+        "keyword" : "To",
+        "title" : "Defines range of values to be assigned to the index variable in a For/Next loop. See For for details and examples.",
+        "description" : "<p>Syntax</p><p>For Local IndexVar := start_value To end_value [ Step constant_value ]<br />Statements...<br />Next</p>"
+    },
+    {
+        "keyword" : "ToArray",
+        "title" : "Method ToArray : T[] ()",
+        "description" : "<p>Returns the array contained in the ArrayObject.</p><p>Multiple ToArray methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "ToBool",
+        "title" : "Method ToBool : Bool ()",
+        "description" : "Returns the bool value contained in the BoolObject."
+    },
+    {
+        "keyword" : "ToChars",
+        "title" : "Method ToChars : Int[] ()",
+        "description" : "Converts string to an array of character codes."
+    },
+    {
+        "keyword" : "ToFloat",
+        "title" : "Method ToFloat : Float ()",
+        "description" : "<p>Returns the int value contained in the IntObject converted to a float.</p><p>Multiple ToFloat methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "ToHtml",
+        "title" : "Method ToHtml : String ( markdown:String )",
+        "description" : "Converts markdown to html."
+    },
+    {
+        "keyword" : "ToInt",
+        "title" : "Method ToInt : Int ()",
+        "description" : "Returns the int value contained in the IntObject."
+    },
+    {
+        "keyword" : "ToJson",
+        "title" : "Method ToJson : String ()",
+        "description" : "<p>Converts value to a JSON string.</p><p>Multiple ToJson methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "ToLower",
+        "title" : "Method ToLower : String ()",
+        "description" : "Converts the string to lowercase and returns the result."
+    },
+    {
+        "keyword" : "ToString",
+        "title" : "Method ToString : String () Property",
+        "description" : "<p>Returns a string representation of the socket address.</p><p>Multiple ToString methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "ToUpper",
+        "title" : "Method ToUpper : String ()",
+        "description" : "Converts the string to uppercase and returns the result."
+    },
+    {
+        "keyword" : "Top",
+        "title" : "Method Top : T ()",
+        "description" : "<p>Returns the item at the top of the stack.</p><p>If the stack is empty, the behaviour of Top is undefined.</p>"
+    },
+    {
+        "keyword" : "TouchDown",
+        "title" : "Function TouchDown : Int ( index:Int )",
+        "description" : "Returns 1 if the finger specified by index is currently touching the touchscreen, otherwise 0.<br />Note that index refers to the order touches have been made. The first finger to touch the touchscreen will be assigned index 0. If another finger then also touches the touchscreen, it will be assigned index 1 and so on.<br />If a finger is touching, you can get its x and y coordinates using the TouchX and TouchY commands.<br />On devices with a mouse but no touch screen, TouchDown( 0 ) will instead return MouseDown( MOUSE_LEFT )."
+    },
+    {
+        "keyword" : "TouchHit",
+        "title" : "Function TouchHit : Int ( index:Int )",
+        "description" : "Returns the number of times the specified finger has made contact with the touchscreen since the last OnUpdate.<br />Note that index refers to the order touches have been made. The first finger to touch the touchscreen will be assigned index 0. If another finger then also touches the touchscreen, it will be assigned index 1 and so on.<br />If a finger is touching, you can get its x and y coordinates using the TouchX and TouchY commands.<br />On devices with a mouse but no touch screen, TouchHit( 0 ) will instead return MouseHit( MOUSE_LEFT )."
+    },
+    {
+        "keyword" : "TouchX",
+        "title" : "Function TouchX : Float ( index:Int )",
+        "description" : "Returns the x coordinate of the finger on a touch screen device.<br />Note that index refers to the order touches have been made. The first finger to touch the touchscreen will be assigned index 0. If another finger then also touches the touchscreen, it will be assigned index 1 and so on.<br />On devices with a mouse but no touch screen, TouchX( 0 ) will instead return MouseX"
+    },
+    {
+        "keyword" : "TouchY",
+        "title" : "Function TouchY : Float ( index:Int )",
+        "description" : "Returns the y coordinate of the finger on a touch screen device.<br />Note that index refers to the order touches have been made. The first finger to touch the touchscreen will be assigned index 0. If another finger then also touches the touchscreen, it will be assigned index 1 and so on.<br />On devices with a mouse but no touch screen, TouchY( 0 ) will instead return MouseY."
+    },
+    {
+        "keyword" : "Transform",
+        "title" : "Function Transform : Int ( m:Float[] / ix:Float, iy:Float, jx:Float, jy:Float, tx:Float, ty:Float)",
+        "description" : "Multiplies the current matrix by the specified matrix."
+    },
+    {
+        "keyword" : "Translate",
+        "title" : "Function Translate : Int ( x:Float, y:Float )",
+        "description" : "Multiplies the current matrix by a matrix representing the specified translation."
+    },
+    {
+        "keyword" : "Trim",
+        "title" : "Method Trim : String ()",
+        "description" : "Removes any leading and trailing whitespace from the string and returns the result."
+    },
+    {
+        "keyword" : "Try",
+        "title" : "Declares the start of a Try/Catch block.",
+        "description" : "<p>Syntax</p><p>Try<br />code<br />Catch exception<br />error handling code<br />End [Try]</p>"
+    },
+    {
+        "keyword" : "Type",
+        "title" : "Method Type : Int () Property",
+        "description" : "<p>Product type, one of: 1 (Consumable product), 2 (Non-consumable product)</p><p>Multiple Type methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "Unbox",
+        "title" : "Function Unbox : T[] ( box:Object )",
+        "description" : "Unbox an array."
+    },
+    {
+        "keyword" : "UnboxBool",
+        "title" : "Function UnboxBool : Bool ( box:Object )",
+        "description" : "Unboxes a bool. The box must have been previously created with BoxBool."
+    },
+    {
+        "keyword" : "UnboxFloat",
+        "title" : "Function UnboxFloat : Float ( box:Object )",
+        "description" : "Unboxes a float. The box must have been previously created with BoxFloat."
+    },
+    {
+        "keyword" : "UnboxInt",
+        "title" : "Function UnboxInt : Int ( box:Object )",
+        "description" : "Unboxes an int. The box must have been previously created with BoxInt."
+    },
+    {
+        "keyword" : "UnboxString",
+        "title" : "Function UnboxString : String ( box:Object )",
+        "description" : "Unboxes a string. The box must have been previously created with BoxString."
+    },
+    {
+        "keyword" : "Until",
+        "title" : "Marks the end of a Repeat/Until loop. Note that the Until keyword is also found as a modifier in For/Next loops.",
+        "description" : "<p>Syntax</p><p>Repeat<br />Statements...<br />Until expression</p>"
+    },
+    {
+        "keyword" : "Update",
+        "title" : "Method Update : Bool ( key:K, value:V )",
+        "description" : "Updates an existing key/value pair.<br />If the map does not contain key, the map is not modified and false is returned.<br />Otherwise, the map is updated and true is returned."
+    },
+    {
+        "keyword" : "UpdateAsyncEvents",
+        "title" : "Function UpdateAsyncEvents : Void ()",
+        "description" : "<p>Calls the UpdateAsyncEvents method for each event source contained in the global list of event sources.</p><p>You must call this function repeatedly (for example, at the start of OnUpdate) for the various OnComplete handlers to continue to execute.</p>"
+    },
+    {
+        "keyword" : "UpdateRate",
+        "title" : "Function UpdateRate : Int ()",
+        "description" : "Returns the current update rate, as set by SetUpdateRate."
+    },
+    {
+        "keyword" : "Username",
+        "title" : "Method Username : String () Property",
+        "description" : "Returns the username part of the url."
+    },
+    {
+        "keyword" : "Value",
+        "title" : "Method Value : T ()",
+        "description" : "<p>Returns the value stored in the node.</p><p>Multiple Value methods. Please check main documentation.</p>"
+    },
+    {
+        "keyword" : "Values",
+        "title" : "Method Values : Object ()",
+        "description" : "Returns an object that can be used to enumerate all values in the map with a For Eachin loop."
+    },
+    {
+        "keyword" : "Wait",
+        "title" : "Method Wait : Int ()",
+        "description" : "Waits for process to finish and returns process exit code."
+    },
+    {
+        "keyword" : "Wend",
+        "title" : "Wend, short for While [loop] End, marks the end of a While loop. See While for details and examples.",
+        "description" : "<p>Syntax</p><p>While expression<br />Statements...<br />Wend</p><p>While expression<br />Statements...<br />End</p><p>While expression<br />Statements...<br />End While</p>"
+    },
+    {
+        "keyword" : "While",
+        "title" : "Marks the start of a While loop.",
+        "description" : "<p>Syntax</p><p>While expression<br />Statements...<br />Wend</p><p>While expression<br />Statements...<br />End</p><p>While expression<br />Statements...<br />End While</p>"
+    },
+    {
+        "keyword" : "Width",
+        "title" : "Method Width : Int ()",
+        "description" : "Returns the width of the image, in pixels."
+    },
+    {
+        "keyword" : "Write",
+        "title" : "Method Write : Int ( buffer:DataBuffer, offset:Int, count:Int )",
+        "description" : "Writes count bytes from databuffer to the stream, starting at address offset within the databuffer.<br />Returns the number of bytes actually written. This will be the same as count unless an IO error has occured.<br />This method may block if the underlying stream is full."
+    },
+    {
+        "keyword" : "WriteAll",
+        "title" : "Method WriteAll : Void ( buffer:DataBuffer, offset:Int, count:Int )",
+        "description" : "<p>Writes count bytes from databuffer to the stream, starting at address offset within the databuffer.</p><p>A StreamWriteError is thrown if not all bytes could be written.</p>"
+    },
+    {
+        "keyword" : "WriteByte",
+        "title" : "Method WriteByte : Void ( value:Int )",
+        "description" : "<p>Writes an 8 bit byte to the stream.</p><p>A StreamWriteError will be thrown if value could not be written.</p>"
+    },
+    {
+        "keyword" : "WriteFloat",
+        "title" : "Method WriteFloat : Void ( value:Float )",
+        "description" : "<p>Writes a 32 bit float value to the stream.</p><p>A StreamWriteError will be thrown if value could not be written.</p>"
+    },
+    {
+        "keyword" : "WriteInt",
+        "title" : "Method WriteInt : Void ( value:Int )",
+        "description" : "<p>Writes a 32 bit int value to the stream.</p><p>A StreamWriteError will be thrown if value could not be written.</p>"
+    },
+    {
+        "keyword" : "WritePixels",
+        "title" : "Method WritePixels : Void ( pixels:Int[], x:Int, y:Int, width:Int, height:Int, arrayOffset:Int=0, arrayPitch:Int=0 )",
+        "description" : "Copies a rectangular section of pixels from an int array to the image.<br />The pixel data must be stored in int-per-pixel ARGB format, with the alpha component stored in bits 24-31, the red component in bits 16-23, the green component in bits 8-15 and the blue component in bits 0-7.<br />The optional arrayOffset parameter allows you to specify an index into the array from which to start reading pixel values.<br />The optional arrayPitch parameter allows you to specify a 'pitch' - the number of array elements between successive rows in the array. If this is 0, then width is used as pitch, meaning pixel data is assumed to be 'tightly packed'."
+    },
+    {
+        "keyword" : "WriteShort",
+        "title" : "Method WriteShort : Void ( value:Int )",
+        "description" : "<p>Write a 16 bit int value to the stream.</p><p>A StreamWriteError will be thrown if value could not be written.</p>"
+    },
+    {
+        "keyword" : "WriteStdin",
+        "title" : "Method WriteStdin : Int ( buffer:DataBuffer, offset:Int, count:Int )",
+        "description" : "Writes bytes from buffer to process stdin."
+    },
+    {
+        "keyword" : "WriteString",
+        "title" : "Method WriteString : Void ( value:String, encoding:String='utf8' )",
+        "description" : "<p>Writes a string to the stream using the given encoding.</p><p>encoding should be utf8 or ascii.</p>"
+    }
+]

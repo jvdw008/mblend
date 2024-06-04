@@ -1,0 +1,1180 @@
+.helpAlert {
+  font-size: 1.2em;
+  position: fixed;
+  min-height: 150px;
+  padding: 10px;
+  background-color: #f00;
+  color: #fff;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  bottom: 0;
+  left: 10%;
+  right: 10%;
+  z-index: 50;
+  display: none;
+}
+
+body {
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  width: 100%;
+  overflow: hidden;
+  background: #aaa url("../images/128-214.jpg") top left;
+}
+body.index {
+  background: #fff;
+  overflow: auto;
+  font-size: 20px;
+  color: #5c707b;
+  font-family: 'Dosis', sans-serif;
+}
+body.index button.free {
+  background-color: #00aa00;
+}
+body.index button.pay {
+  background-color: #13dbe8;
+}
+body.index .grid {
+  max-width: 100%;
+  min-width: 0;
+}
+body.index .container {
+  padding: 10px;
+}
+body.index h2 {
+  font-size: 2em;
+  font-weight: 700;
+  color: #555;
+}
+body.index h3 {
+  font-size: 1.6em;
+  font-weight: 600;
+  font-weight: normal;
+}
+body.index h4 {
+  font-size: 1.2em;
+  font-weight: 400;
+  font-weight: normal;
+}
+body.index .logo .theLogo {
+  text-indent: -10000px;
+  background: url("../images/mblend.png") center -40px no-repeat;
+  height: 65px;
+}
+body.index .logo .mBlend {
+  font-size: 0.8em;
+}
+body.index .section1 {
+  margin-bottom: 20px;
+}
+body.index .section2 {
+  position: relative;
+  height: 530px;
+  background: #5f4532 url("../images/cup.jpg") top left no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+body.index .section2 h2 {
+  color: #fff;
+}
+body.index .section2 .col-1-1 {
+  position: absolute;
+  top: 25%;
+}
+body.index .section4 {
+  position: relative;
+}
+body.index .section4 .col-1-1 {
+  height: 540px;
+  background: url("../images/ipad.png") top center no-repeat;
+}
+body.index .section4 .bottomHalf {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,72635c+6,895d4d+7,bc9e93+18,ffffff+65 */
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 0%, #72635c 6%, #895d4d 7%, #bc9e93 18%, #ffffff 65%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffffff 0%, #72635c 6%, #895d4d 7%, #bc9e93 18%, #ffffff 65%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ffffff 0%, #72635c 6%, #895d4d 7%, #bc9e93 18%, #ffffff 65%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+  /* IE6-9 */
+  height: 300px;
+  margin-top: 240px;
+}
+body.index .section5 {
+  padding-bottom: 30px;
+}
+body.index .section5 .comparison {
+  text-align: left;
+}
+body.index .section5 .comparison .col-1-3 {
+  padding: 5px;
+}
+body.index .section5 .comparison .col-1-3.free {
+  margin-left: 15%;
+}
+body.index .section5 .comparison .col-1-3.paid {
+  margin-right: 15%;
+  float: right;
+}
+body.index .section5 .comparison .col-1-3.paid .comparisonContainer h2 {
+  margin: 5px 0;
+}
+body.index .section5 .comparison .col-1-3 .comparisonContainer {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #aaa;
+}
+body.index .section5 .comparison .col-1-3 .comparisonContainer ul li {
+  list-style-type: none;
+  padding: 10px 0 10px 50px;
+  margin-left: -40px;
+  background: url("../images/checkmark2.png") 5px 7px no-repeat;
+}
+body.index .section5 .comparison .col-1-3 .comparisonContainer ul li:last-child {
+  border: none;
+}
+body.index .section5 .comparison .col-1-3 .comparisonContainer ul li.empty {
+  background: url("../images/cross.png") 5px 7px no-repeat;
+  color: #f00;
+}
+body.index .section5 .comparison .col-1-3 .comparisonContainer ul li span {
+  text-decoration: underline;
+}
+body.index .section5 .comparison .col-1-3 .comparisonContainer h3, body.index .section5 .comparison .col-1-3 .comparisonContainer .clicker {
+  text-align: center;
+}
+body.index .section5 .comparison .col-1-3 .comparisonContainer h3 {
+  margin: 5px 0;
+}
+body.index .section5 .comparison .col-1-3 .comparisonContainer .clicker {
+  padding-bottom: 30px;
+}
+body.index .section5 .comparison .col-1-3 .comparisonContainer .clicker.payMonthly {
+  padding: 0;
+}
+body.index .section5 .comparison .col-1-3 .comparisonContainer .clicker.payMonthly button {
+  background-color: #00aa00;
+}
+body.index .section5 .comparison .col-1-3 .comparisonContainer .clicker.payYearly button {
+  background-color: #13dbe8;
+}
+body.index .section6 {
+  background-color: #eaeef4;
+  padding-bottom: 30px;
+}
+body.index .section6 h2 {
+  font-size: 1.6em;
+}
+body.index .section6 h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+body.index .footer {
+  position: relative;
+  font-size: 0.8em;
+  color: #aaa;
+  background-color: #555;
+}
+body.index .footer a {
+  color: #aaa;
+  text-decoration: none;
+}
+body.index .footer a:hover {
+  color: #fff;
+}
+body.index .footer h4 {
+  color: #fff;
+  padding-left: 40px;
+}
+body.index .footer .clear {
+  clear: both;
+}
+body.paypal {
+  background: #fff;
+  overflow: auto;
+  font-size: 20px;
+  color: #5c707b;
+  font-family: 'Dosis', sans-serif;
+}
+body.paypal .grid {
+  max-width: 100%;
+  min-width: 0;
+}
+body.paypal a {
+  color: #9c8867;
+  text-decoration: none;
+}
+body.paypal a:hover {
+  text-decoration: underline;
+}
+body.paypal button {
+  background-color: #00aa00;
+}
+body.paypal button.register {
+  display: block;
+}
+body.paypal button.verify {
+  display: none;
+}
+body.paypal .userResponse {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+body.paypal .userResponse .green {
+  color: #00aa00;
+}
+body.paypal .userResponse .red {
+  color: #f00;
+}
+body.paypal .logo .theLogo {
+  text-indent: -10000px;
+  background: url("../images/mblend.png") center -40px no-repeat;
+  height: 65px;
+}
+body.paypal .logo .mBlend {
+  font-size: 0.8em;
+}
+body.paypal .choose {
+  display: none;
+  margin-bottom: 30px;
+  clear: both;
+}
+body.paypal .choose .col-1-2 {
+  margin-bottom: 30px;
+}
+body.paypal .footer {
+  padding: 20px 0 30px 0;
+  position: initial;
+}
+body.paypal .steps {
+  border-bottom: 1px solid #5c707b;
+}
+body.paypal .steps .unchecked {
+  background: none;
+}
+body.paypal .steps .checked {
+  background: url("../images/checkmark2.png") 5px 7px no-repeat;
+  background-position: 120px 5px;
+}
+body.sharedFile h1 {
+  color: #fff !important;
+}
+
+label {
+  cursor: pointer;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+input {
+  border-radius: 5px;
+  padding: 2px 5px;
+  font-size: 1em;
+  margin-bottom: 10px;
+  outline: none;
+  border: 1px solid #9c8867;
+}
+input:focus {
+  background-color: #c2ffc2;
+}
+input[type="radio"] {
+  border: none;
+}
+input[type="checkbox"] {
+  border-radius: 0;
+}
+
+select {
+  border-radius: 5px;
+  padding: 2px 5px;
+  font-size: 0.8em;
+  outline: none;
+  border: 1px solid #9c8867;
+}
+
+#editor {
+  position: fixed;
+  top: 100px;
+  left: 50px;
+  bottom: 100px;
+  width: auto;
+  right: 50px;
+  z-index: 0;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  font-size: 0.8em;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  z-index: 10000;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(50, 50, 50, 0.9);
+}
+
+.overlayContent {
+  display: none;
+  border-radius: 10px;
+  position: fixed;
+  z-index: 10001;
+  background-color: #fff;
+  text-align: center;
+  top: 20%;
+  left: 10%;
+  right: 10%;
+  padding: 30px;
+}
+.overlayContent .modalBtnGroup {
+  margin-top: 30px;
+}
+.overlayContent .modalBtnGroup .col-1-2 {
+  padding-right: 0;
+}
+.overlayContent .modalBtnGroup .col-1-3 {
+  margin-right: 10px;
+}
+.overlayContent .modalBtnGroup button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  border: none;
+  cursor: pointer;
+}
+.overlayContent .modalBtnGroup button.Yes, .overlayContent .modalBtnGroup button.Ok, .overlayContent .modalBtnGroup button.Save, .overlayContent .modalBtnGroup button.Reset, .overlayContent .modalBtnGroup button.Send, .overlayContent .modalBtnGroup button.Share {
+  background-color: #00aa00;
+}
+.overlayContent .modalBtnGroup button.Yes:hover, .overlayContent .modalBtnGroup button.Ok:hover, .overlayContent .modalBtnGroup button.Save:hover, .overlayContent .modalBtnGroup button.Reset:hover, .overlayContent .modalBtnGroup button.Send:hover, .overlayContent .modalBtnGroup button.Share:hover {
+  opacity: 0.5;
+}
+.overlayContent .modalBtnGroup button.No, .overlayContent .modalBtnGroup button.Cancel {
+  background-color: #aa0000;
+}
+.overlayContent .modalBtnGroup button.No:hover, .overlayContent .modalBtnGroup button.Cancel:hover {
+  opacity: 0.5;
+}
+.overlayContent .modalCloser {
+  position: absolute;
+  top: -20px;
+  right: 0px;
+  padding: 10px;
+  font-size: 1.2em;
+  line-height: 20px;
+  cursor: pointer;
+  color: #555;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.overlayContent .adjustSettings {
+  text-align: left;
+}
+.overlayContent .adjustSettings .col-1-2 {
+  padding: 10px 0;
+}
+.overlayContent .adjustSettings input {
+  text-align: left;
+}
+.overlayContent.home, .overlayContent.contactForm, .overlayContent.faq {
+  top: 5%;
+  left: 5%;
+  right: 5%;
+  bottom: 5%;
+  overflow: auto;
+}
+.overlayContent.contactForm {
+  text-align: left;
+}
+.overlayContent.contactForm textarea {
+  height: 200px;
+  font-size: 1.1em;
+}
+.overlayContent.sharedLinks .sharesContent {
+  word-wrap: break-word;
+}
+
+.loader {
+  display: block;
+  position: fixed;
+  z-index: 10000;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  left: 0;
+  background: rgba(50, 50, 50, 0.9);
+  color: #fff;
+  font-size: 2em;
+  text-align: center;
+}
+.loader p {
+  top: 30%;
+  position: relative;
+}
+.loader .cssload-whirlpool,
+.loader .cssload-whirlpool::before,
+.loader .cssload-whirlpool::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 1px solid rgba(204, 204, 204, 0.6);
+  border-left-color: black;
+  border-radius: 524px;
+  -o-border-radius: 524px;
+  -ms-border-radius: 524px;
+  -webkit-border-radius: 524px;
+  -moz-border-radius: 524px;
+}
+.loader .cssload-whirlpool {
+  display: none;
+  margin: 0 0 0 -40px;
+  height: 80px;
+  width: 80px;
+  animation: cssload-rotate 1150ms linear infinite;
+  -o-animation: cssload-rotate 1150ms linear infinite;
+  -ms-animation: cssload-rotate 1150ms linear infinite;
+  -webkit-animation: cssload-rotate 1150ms linear infinite;
+  -moz-animation: cssload-rotate 1150ms linear infinite;
+}
+.loader .cssload-whirlpool::before {
+  content: "";
+  margin: -12px 0 0 -12px;
+  height: 76px;
+  width: 76px;
+  top: 10px;
+  left: 10px;
+  animation: cssload-rotate 1150ms linear infinite;
+  -o-animation: cssload-rotate 1150ms linear infinite;
+  -ms-animation: cssload-rotate 1150ms linear infinite;
+  -webkit-animation: cssload-rotate 1150ms linear infinite;
+  -moz-animation: cssload-rotate 1150ms linear infinite;
+}
+.loader .cssload-whirlpool::after {
+  content: "";
+  margin: -15px 0 0 -15px;
+  height: 85px;
+  width: 85px;
+  top: 10px;
+  left: 10px;
+  animation: cssload-rotate 2300ms linear infinite;
+  -o-animation: cssload-rotate 2300ms linear infinite;
+  -ms-animation: cssload-rotate 2300ms linear infinite;
+  -webkit-animation: cssload-rotate 2300ms linear infinite;
+  -moz-animation: cssload-rotate 2300ms linear infinite;
+}
+@keyframes cssload-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes cssload-rotate {
+  100% {
+    -o-transform: rotate(360deg);
+  }
+}
+@-ms-keyframes cssload-rotate {
+  100% {
+    -ms-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes cssload-rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes cssload-rotate {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+.popup {
+  position: absolute;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #00aa00;
+  color: #fff;
+  display: none;
+  z-index: 11000;
+  font-size: 0.9em;
+}
+.popup p {
+  margin: 2px 0;
+}
+
+.toolbar {
+  display: none;
+  position: fixed;
+  width: 100%;
+  min-width: 490px;
+  top: 0;
+  left: 0;
+  padding: 5px 0;
+  background-color: #efefef;
+}
+.toolbar .icons button {
+  padding: 5px 10px 5px 35px;
+  margin-right: 10px;
+  border-radius: 5px;
+  position: relative;
+  border: none;
+  font-size: 1em;
+}
+.toolbar .icons button:hover {
+  opacity: 0.7;
+}
+.toolbar .icons button.saveBtn .cssload-whirlpool,
+.toolbar .icons button.saveBtn .cssload-whirlpool::before,
+.toolbar .icons button.saveBtn .cssload-whirlpool::after, .toolbar .icons button.buildBtn .cssload-whirlpool,
+.toolbar .icons button.buildBtn .cssload-whirlpool::before,
+.toolbar .icons button.buildBtn .cssload-whirlpool::after, .toolbar .icons button.cleanBtn .cssload-whirlpool,
+.toolbar .icons button.cleanBtn .cssload-whirlpool::before,
+.toolbar .icons button.cleanBtn .cssload-whirlpool::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 1px solid rgba(204, 204, 204, 0.6);
+  border-left-color: black;
+  border-radius: 524px;
+  -o-border-radius: 524px;
+  -ms-border-radius: 524px;
+  -webkit-border-radius: 524px;
+  -moz-border-radius: 524px;
+}
+.toolbar .icons button.saveBtn .cssload-whirlpool, .toolbar .icons button.buildBtn .cssload-whirlpool, .toolbar .icons button.cleanBtn .cssload-whirlpool {
+  display: none;
+  margin: -10px 0 0 -30px;
+  height: 20px;
+  width: 20px;
+  animation: cssload-rotate 1150ms linear infinite;
+  -o-animation: cssload-rotate 1150ms linear infinite;
+  -ms-animation: cssload-rotate 1150ms linear infinite;
+  -webkit-animation: cssload-rotate 1150ms linear infinite;
+  -moz-animation: cssload-rotate 1150ms linear infinite;
+}
+.toolbar .icons button.saveBtn .cssload-whirlpool::before, .toolbar .icons button.buildBtn .cssload-whirlpool::before, .toolbar .icons button.cleanBtn .cssload-whirlpool::before {
+  content: "";
+  margin: -12px 0 0 -12px;
+  height: 16px;
+  width: 16px;
+  top: 10px;
+  left: 10px;
+  animation: cssload-rotate 1150ms linear infinite;
+  -o-animation: cssload-rotate 1150ms linear infinite;
+  -ms-animation: cssload-rotate 1150ms linear infinite;
+  -webkit-animation: cssload-rotate 1150ms linear infinite;
+  -moz-animation: cssload-rotate 1150ms linear infinite;
+}
+.toolbar .icons button.saveBtn .cssload-whirlpool::after, .toolbar .icons button.buildBtn .cssload-whirlpool::after, .toolbar .icons button.cleanBtn .cssload-whirlpool::after {
+  content: "";
+  margin: -15px 0 0 -15px;
+  height: 25px;
+  width: 25px;
+  top: 10px;
+  left: 10px;
+  animation: cssload-rotate 2300ms linear infinite;
+  -o-animation: cssload-rotate 2300ms linear infinite;
+  -ms-animation: cssload-rotate 2300ms linear infinite;
+  -webkit-animation: cssload-rotate 2300ms linear infinite;
+  -moz-animation: cssload-rotate 2300ms linear infinite;
+}
+@keyframes cssload-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes cssload-rotate {
+  100% {
+    -o-transform: rotate(360deg);
+  }
+}
+@-ms-keyframes cssload-rotate {
+  100% {
+    -ms-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes cssload-rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes cssload-rotate {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+.toolbar .icons button.build {
+  background: #f00 url("../images/wrench.png") 5px 3px no-repeat;
+}
+.toolbar .icons button.run {
+  background: #00aa00 url("../images/rocket.png") 5px 3px no-repeat;
+  visibility: hidden;
+}
+.toolbar .icons button.save {
+  background: #13dbe8 url("../images/cloud-upload.png") 5px 3px no-repeat;
+}
+.toolbar .icons button.saved {
+  background: #13dbe8 url("../images/cloud-check.png") 5px 3px no-repeat;
+}
+.toolbar .icons button.clean {
+  background: #aaa url("../images/power.png") 5px 3px no-repeat;
+}
+.toolbar .icons button.build, .toolbar .icons button.run, .toolbar .icons button.save, .toolbar .icons button.saved, .toolbar .icons button.clean {
+  background-size: 20px;
+}
+
+.editFileName {
+  display: none;
+  margin: 76px 0 0 100px;
+}
+.editFileName .tab {
+  background-color: #aaa;
+  color: #000;
+  padding: 2px 5px;
+  word-wrap: break-word;
+  float: left;
+  font-size: 1em;
+  height: 25px;
+  padding-right: 30px;
+  border-radius: 5px 5px 0 0;
+  border-width: 1px 1px 0 1px;
+  border-style: solid;
+  border-color: #fff;
+}
+.editFileName .tab .close {
+  display: none;
+  height: 15px;
+  padding: 3px;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  line-height: 1px;
+  border: 1px solid #555;
+  border-radius: 2px;
+  color: #555;
+  background-color: #fff;
+}
+.editFileName .tab:hover {
+  position: relative;
+  background-color: #555;
+  color: #fff;
+  bottom: 6px;
+  height: 30px;
+  z-index: 1;
+  border-color: #fff;
+}
+.editFileName .tab:hover .close {
+  display: none;
+}
+.editFileName .tab.selected {
+  position: relative;
+  background-color: #9c8867;
+  color: #fff;
+  bottom: 6px;
+  height: 31px;
+  line-height: 28px;
+  font-size: 1.1em;
+  z-index: 1;
+  border-color: #fff;
+}
+.editFileName .tab.selected:hover .close {
+  display: block;
+}
+.editFileName .tab.selected .close:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #f00;
+}
+
+.buildLog {
+  position: fixed;
+  display: none;
+  width: 300px;
+  height: 100%;
+  top: 0;
+  right: -260px;
+  padding: 12px;
+  background-color: #fff;
+  border-left: 2px solid #555;
+  z-index: 20;
+  cursor: pointer;
+  white-space: -webkit-pre-wrap;
+  /* Newer versions of Chrome/Safari*/
+  word-break: break-all;
+  white-space: normal;
+}
+.buildLog:hover {
+  background-color: #efefef;
+}
+.buildLog h2 {
+  position: relative;
+  transform: rotate 0deg;
+}
+.buildLog h2.transform {
+  transform: rotate(-90deg);
+  left: -117px;
+  top: -20px;
+}
+.buildLog .closer {
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  padding: 10px;
+}
+.buildLog .closer .in, .buildLog .closer .out {
+  display: none;
+}
+.buildLog .logError {
+  display: none;
+  color: #f00;
+}
+.buildLog .logSuccess {
+  display: none;
+  color: #00aa00;
+}
+.buildLog .logs p {
+  display: none;
+}
+
+.menu {
+  position: fixed;
+  display: block;
+  width: 300px;
+  height: 100%;
+  padding: 12px 40px 12px 12px;
+  background-color: #fff;
+  border-right: 2px solid #555;
+  z-index: 20;
+  cursor: pointer;
+  overflow-y: auto;
+  top: 0;
+}
+.menu:hover {
+  background-color: #efefef;
+}
+.menu h2 {
+  position: relative;
+  cursor: default;
+  margin-top: 0;
+}
+.menu h2.transform {
+  transform: rotate(90deg);
+  position: fixed;
+  top: 80px;
+  left: -22px;
+  cursor: pointer;
+}
+.menu h3 {
+  z-index: 100;
+  margin-bottom: 0;
+}
+.menu .member {
+  font-size: 0.8em;
+}
+.menu .controls {
+  display: none;
+}
+.menu .controls a {
+  font-size: 0.9em;
+  cursor: pointer;
+  color: #13dbe8;
+  text-decoration: underline;
+  padding: 0 10px;
+}
+.menu .controls a:hover {
+  text-decoration: none;
+  color: #f00;
+}
+.menu .controls a.settings, .menu .controls a.shares {
+  display: none;
+}
+.menu .controls span {
+  display: none;
+  padding: 0 10px;
+}
+.menu .closer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  z-index: 100;
+}
+.menu .closer .in, .menu .closer .out {
+  display: none;
+}
+.menu .col-1-1, .menu .col-1-2 {
+  padding-right: 0;
+}
+.menu button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  border: none;
+  cursor: pointer;
+}
+.menu button.login {
+  background-color: #aa0000;
+  padding-left: 30px;
+  background: #aa0000 url("../images/lock.png") 8px 7px no-repeat;
+  background-size: 20px;
+}
+.menu button.login:hover {
+  opacity: 0.5;
+}
+.menu button.register {
+  background-color: #00aa00;
+  padding-left: 30px;
+  background: #00aa00 url("../images/user.png") 8px 7px no-repeat;
+  background-size: 20px;
+}
+.menu button.register:hover {
+  opacity: 0.5;
+}
+.menu .delete {
+  display: none;
+  height: 15px;
+  position: absolute;
+  top: 5px;
+  right: 3px;
+  padding: 0 5px;
+  line-height: 10px;
+  border: 1px solid #555;
+  border-radius: 2px;
+  color: #555;
+}
+.menu .delete:hover {
+  color: #fff;
+  background-color: #f00;
+}
+.menu .zip {
+  background: url("../images/cloud-download.png") top left no-repeat;
+}
+.menu .share {
+  background: url("../images/link.png") top left no-repeat;
+}
+.menu .zip, .menu .share {
+  display: none;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 5px;
+  left: 2px;
+  background-size: cover;
+}
+.menu .projects, .menu .loggedIn, .menu .files, .menu .member {
+  display: none;
+}
+.menu .projects {
+  margin-top: 20px;
+  clear: both;
+}
+.menu .projects .cssload-whirlpool,
+.menu .projects .cssload-whirlpool::before,
+.menu .projects .cssload-whirlpool::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid rgba(204, 204, 204, 0.6);
+  border-left-color: black;
+  border-radius: 524px;
+  -o-border-radius: 524px;
+  -ms-border-radius: 524px;
+  -webkit-border-radius: 524px;
+  -moz-border-radius: 524px;
+}
+.menu .projects .cssload-whirlpool {
+  display: none;
+  margin: 72px 0 0 114px;
+  height: 30px;
+  width: 30px;
+  animation: cssload-rotate 1150ms linear infinite;
+  -o-animation: cssload-rotate 1150ms linear infinite;
+  -ms-animation: cssload-rotate 1150ms linear infinite;
+  -webkit-animation: cssload-rotate 1150ms linear infinite;
+  -moz-animation: cssload-rotate 1150ms linear infinite;
+}
+.menu .projects .cssload-whirlpool::before {
+  content: "";
+  margin: -12px 0 0 -12px;
+  height: 26px;
+  width: 26px;
+  top: 13px;
+  left: 13px;
+  animation: cssload-rotate 1150ms linear infinite;
+  -o-animation: cssload-rotate 1150ms linear infinite;
+  -ms-animation: cssload-rotate 1150ms linear infinite;
+  -webkit-animation: cssload-rotate 1150ms linear infinite;
+  -moz-animation: cssload-rotate 1150ms linear infinite;
+}
+.menu .projects .cssload-whirlpool::after {
+  content: "";
+  margin: -15px 0 0 -15px;
+  height: 35px;
+  width: 35px;
+  top: 13px;
+  left: 13px;
+  animation: cssload-rotate 2300ms linear infinite;
+  -o-animation: cssload-rotate 2300ms linear infinite;
+  -ms-animation: cssload-rotate 2300ms linear infinite;
+  -webkit-animation: cssload-rotate 2300ms linear infinite;
+  -moz-animation: cssload-rotate 2300ms linear infinite;
+}
+@keyframes cssload-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes cssload-rotate {
+  100% {
+    -o-transform: rotate(360deg);
+  }
+}
+@-ms-keyframes cssload-rotate {
+  100% {
+    -ms-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes cssload-rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes cssload-rotate {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+.menu .projectList ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 5px 5px 5px 30px;
+  margin: 5px 0 5px -40px;
+  list-style-type: none;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.menu .projectList ul li:hover {
+  text-decoration: underline;
+  background-color: #eaeef4;
+}
+.menu .projectList ul li:hover .delete, .menu .projectList ul li:hover .zip {
+  display: block;
+}
+.menu .projectList ul li input {
+  width: 90%;
+}
+.menu .fileList ul li {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  color: #555;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 5px 0 5px -40px;
+  padding: 5px 5px 5px 30px;
+}
+.menu .fileList ul li:hover {
+  color: #00ccda;
+  text-decoration: underline;
+  background-color: #eaeef4;
+}
+.menu .fileList ul li:hover .delete, .menu .fileList ul li:hover .share {
+  display: block;
+}
+.menu .fileList ul li.edit {
+  color: #00aa00;
+  cursor: default;
+}
+.menu .fileList ul li input {
+  width: 90%;
+}
+.menu .logo .theLogo {
+  text-indent: -10000px;
+  background: url("../images/mblend.png") 0 -25px no-repeat;
+  background-size: cover;
+  height: 60px;
+}
+.menu .logo .mBlend {
+  font-size: 0.8em;
+}
+.menu .logo a {
+  color: #13dbe8;
+  text-decoration: none;
+  font-size: 0.8em;
+}
+.menu .logo a:hover {
+  color: #f00;
+  text-decoration: underline;
+}
+.menu .newFile {
+  padding-bottom: 20px;
+}
+
+.error .thankyou, .error .loginError, .error .registerError, .error .validateEmail, .error .projectError, .error .unpwError {
+  display: none;
+  border: 1px solid #f00;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #ffdfdf;
+}
+.error .thankyou {
+  border: 1px solid #555;
+  background-color: #c2ffc2;
+}
+
+.footer {
+  padding: 5px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+}
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media handheld, only screen and (max-width: 767px) {
+  .editFileName .tab {
+    height: 34px;
+    width: 20%;
+    overflow: hidden;
+  }
+  .editFileName .tab.selected, .editFileName .tab:hover {
+    height: 40px;
+  }
+
+  .overlayContent {
+    left: 0;
+    right: 0;
+    top: 10%;
+    padding: 10px;
+  }
+  .overlayContent .col-1-5 {
+    width: 20%;
+    float: left;
+  }
+  .overlayContent .sharesContent, .overlayContent .adjustSettings {
+    clear: both;
+  }
+
+  .helpAlert {
+    left: 5%;
+    right: 5%;
+  }
+
+  .member {
+    display: none;
+  }
+}
+.mobile {
+  font-size: 26px;
+}
+.mobile .logo .theLogo {
+  height: 100px;
+}
+.mobile .logo .mblend {
+  display: none;
+}
+.mobile .overlayContent {
+  left: 5%;
+  right: 5%;
+  font-size: 1.8em;
+}
+.mobile .overlayContent .modalCloser {
+  display: none;
+}
+.mobile #registeredEmail {
+  width: 100%;
+}
+.mobile .buildLog {
+  width: 340px;
+}
+.mobile .menu {
+  width: 340px;
+  padding-right: 20px;
+}
+.mobile .menu.gap {
+  padding-right: 80px;
+}
+.mobile .menu.gap h2.transform {
+  left: 0;
+}
+.mobile .menu .loginBox input {
+  margin-bottom: 20px;
+  width: 100%;
+}
+.mobile .menu .loginBox button {
+  margin-bottom: 20px;
+  width: 100%;
+}
+.mobile .menu .loginBox .col-1-1 {
+  padding-right: 20px;
+}
+.mobile .menu .loginBox .col-1-2 {
+  width: 100%;
+}
+.mobile .menu .loggedIn, .mobile .menu .controls {
+  font-size: 1.4em;
+}
+.mobile .menu .zip, .mobile .menu .delete, .mobile .menu .share {
+  display: block;
+}
+.mobile .menu .delete {
+  height: auto;
+  line-height: 1.2em;
+}
+.mobile .menu .projectList ul li {
+  padding-left: 40px;
+  margin-bottom: 20px;
+}
+.mobile .menu .files {
+  margin-top: 20px;
+}
+.mobile .menu .newFile {
+  padding-bottom: 30px;
+}
+.mobile .menu .fileList ul li {
+  margin-bottom: 20px;
+}
+.mobile .menu .links {
+  font-size: 1.5em;
+}
+.mobile .menu .tab.selected .close {
+  display: block;
+  height: 30px;
+}
+.mobile .menu .helpAlert {
+  left: 5%;
+  right: 5%;
+}
+.mobile .menu .member {
+  display: none;
+}
+.mobile #editor {
+  left: 80px;
+  right: 80px;
+}

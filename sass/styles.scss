@@ -1,0 +1,1183 @@
+$light : #fff;
+$medium : #aaa;
+$dark : #555;
+$grey1: #5c707b;
+$grey2: #eaeef4;
+$veryDark: #000;
+$error : #f00;
+$brown: #9c8867;
+$brownSelected: #564830;
+$errorBg: #ffdfdf;
+
+// Button styles
+$buttonLight: #ffaf50;
+$buttonDark: #4caf50;
+$buttonLogin: #aa0000;
+$buttonRegister: #00aa00;
+$buttonBlue: #13dbe8;
+
+$inputBG: #DCFAFC;
+$inputBGHover: #c2ffc2;
+$toolbarBG: #efefef;
+$cookieBG: #ca1111;
+$cookieBtnBG: #ffaa00;
+$fileColor: #555;
+$fileColorEdit: #00aa00;
+$fileHover: #00ccda;
+$helpBG: #00aa00;
+
+$fileBgHover: rgba(50, 50, 50, 0.3);
+
+$logoBgIndex: url("../images/mblend.png") center -40px no-repeat;
+$logoBg: url("../images/mblend.png") 0 -25px no-repeat;
+$section2BG: #5f4532 url("../images/cup.jpg") top left no-repeat;
+$checkMark: url("../images/checkmark2.png") 5px 7px no-repeat;
+$cross: url("../images/cross.png") 5px 7px no-repeat;
+$ipad: url("../images/ipad.png") top center no-repeat;
+$zip: url("../images/cloud-download.png") top left no-repeat;
+$share: url("../images/link.png") top left no-repeat;
+
+@mixin grad($height, $start, $end) {
+    height: $height;
+    background: $start; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient($start, $end); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient($start, $end); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient($start, $end); /* For Firefox 3.6 to 15 */
+    background: linear-gradient($start, $end); /* Standard syntax (must be last) */
+}
+
+// loader mixin
+@mixin loader($size, $margin, $top, $left, $topLeft) {
+    .cssload-whirlpool,
+    .cssload-whirlpool::before,
+    .cssload-whirlpool::after {
+        position: absolute;
+        top: $top;
+        left: $left;
+        border: 1px solid rgba(204,204,204,0.6);
+        border-left-color: rgb(0,0,0);
+        border-radius: 524px;
+            -o-border-radius: 524px;
+            -ms-border-radius: 524px;
+            -webkit-border-radius: 524px;
+            -moz-border-radius: 524px;
+    }
+
+    .cssload-whirlpool {
+        display: none;
+        margin: $margin;
+        height: $size;
+        width: $size;
+        animation: cssload-rotate 1150ms linear infinite;
+            -o-animation: cssload-rotate 1150ms linear infinite;
+            -ms-animation: cssload-rotate 1150ms linear infinite;
+            -webkit-animation: cssload-rotate 1150ms linear infinite;
+            -moz-animation: cssload-rotate 1150ms linear infinite;
+    }
+
+    .cssload-whirlpool::before {
+        content: "";
+        margin: -12px 0 0 -12px;
+        height: $size - 4;
+        width: $size - 4;
+        top: $topLeft;
+        left: $topLeft;
+        animation: cssload-rotate 1150ms linear infinite;
+            -o-animation: cssload-rotate 1150ms linear infinite;
+            -ms-animation: cssload-rotate 1150ms linear infinite;
+            -webkit-animation: cssload-rotate 1150ms linear infinite;
+            -moz-animation: cssload-rotate 1150ms linear infinite;
+    }
+
+    .cssload-whirlpool::after {
+        content: "";
+        margin: -15px 0 0 -15px;
+        height: $size + 5;
+        width: $size + 5;
+        top: $topLeft;
+        left: $topLeft;
+        animation: cssload-rotate 2300ms linear infinite;
+            -o-animation: cssload-rotate 2300ms linear infinite;
+            -ms-animation: cssload-rotate 2300ms linear infinite;
+            -webkit-animation: cssload-rotate 2300ms linear infinite;
+            -moz-animation: cssload-rotate 2300ms linear infinite;
+    }
+
+
+
+    @keyframes cssload-rotate {
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    @-o-keyframes cssload-rotate {
+        100% {
+            -o-transform: rotate(360deg);
+        }
+    }
+
+    @-ms-keyframes cssload-rotate {
+        100% {
+            -ms-transform: rotate(360deg);
+        }
+    }
+
+    @-webkit-keyframes cssload-rotate {
+        100% {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+
+    @-moz-keyframes cssload-rotate {
+        100% {
+            -moz-transform: rotate(360deg);
+        }
+    }
+}
+
+@mixin buttonMix($fontColour) {
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: $fontColour;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    border: none;
+    cursor: pointer;
+}
+.helpAlert {
+    font-size: 1.2em;
+    position: fixed;
+    min-height: 150px;
+    padding: 10px;
+    background-color: $error;
+    color: $light;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    bottom: 0;
+    left: 10%;
+    right: 10%;
+    z-index: 50;
+    display: none;
+}
+body {
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    width: 100%;
+    overflow: hidden;
+    background: $medium url("../images/128-214.jpg") top left;
+  
+    // =======================================================================
+    // Index page css
+    // =======================================================================
+    &.index {
+        background: $light;
+        overflow: auto;
+        font-size: 20px;
+        color: $grey1;
+        font-family: 'Dosis', sans-serif;
+        button {
+            &.free {
+                background-color: $buttonRegister;
+            }
+            &.pay {
+                background-color: $buttonBlue;
+            }
+        }
+        // simplegrid overrides
+        .grid {
+            max-width: 100%;
+            min-width: 0;
+        }
+        .container {
+           padding: 10px;
+        }
+      
+        h2 {
+            font-size: 2em;
+            font-weight: 700;
+            color: $dark;
+        }
+        h3 {
+            font-size: 1.6em;
+            font-weight: 600;
+            font-weight: normal;
+        }
+        h4 {
+            font-size: 1.2em;
+            font-weight: 400;
+            font-weight: normal;
+        }
+      
+        // Now back to the usual
+        .logo {
+            .theLogo {
+                text-indent: -10000px;
+                background: $logoBgIndex;
+                height: 65px;
+            }
+            .mBlend {
+                font-size: 0.8em;
+            }
+        }
+      
+        // Sections
+        .section1 {
+            margin-bottom: 20px;
+        }
+        .section2 {
+            position: relative;
+            height: 530px;
+            background: $section2BG;
+            background-size: cover;
+            color: $light;
+            h2 {
+                color: $light;
+            }
+            .col-1-1 {
+                position: absolute;
+                top: 25%;
+            }
+        }
+        .section3 {
+            
+        }
+        .section4 {
+            position: relative;
+            // Below is dark to light gradient
+            .col-1-1 {
+                height: 540px;
+                background: $ipad;
+            }
+            .bottomHalf {
+                /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,72635c+6,895d4d+7,bc9e93+18,ffffff+65 */
+                background: #ffffff; /* Old browsers */
+                background: -moz-linear-gradient(top, #ffffff 0%, #72635c 6%, #895d4d 7%, #bc9e93 18%, #ffffff 65%); /* FF3.6-15 */
+                background: -webkit-linear-gradient(top, #ffffff 0%,#72635c 6%,#895d4d 7%,#bc9e93 18%,#ffffff 65%); /* Chrome10-25,Safari5.1-6 */
+                background: linear-gradient(to bottom, #ffffff 0%,#72635c 6%,#895d4d 7%,#bc9e93 18%,#ffffff 65%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+                height: 300px;
+                margin-top: 240px;
+            }
+        }
+        .section5 {
+            padding-bottom: 30px;
+            .comparison {
+                text-align: left;
+                .col-1-3 {
+                    padding: 5px;
+                    &.free {
+                        margin-left: 15%;
+                    }
+                    &.paid {
+                        margin-right: 15%;
+                        float: right;
+                        .comparisonContainer {
+                            h2 {
+                                margin: 5px 0;
+                            }
+                        }
+                    }
+                    .comparisonContainer {
+                        margin: 10px;
+                        padding: 10px;
+                        border: 1px solid $medium;
+                        
+                        ul {
+                            li {
+                                list-style-type: none;
+                                padding: 10px 0 10px 50px;
+                                margin-left: -40px;
+                                background: $checkMark;
+                                &:last-child {
+                                    border: none;
+                                }
+                                &.empty {
+                                    background: $cross;
+                                    color: $error;
+                                }
+                                span {
+                                    text-decoration: underline;
+                                }
+                            }
+                        }
+                        h3, .clicker {
+                            text-align: center;
+                        }
+                        h3 {
+                            margin: 5px 0;
+                        }
+                        .clicker {
+                            padding-bottom: 30px;
+                            &.payMonthly {
+                                padding: 0;
+                                button {
+                                    background-color: $buttonRegister;
+                                }
+                            }
+                            &.payYearly {
+                                button {
+                                    background-color: $buttonBlue;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .section6 {
+            background-color: $grey2;
+            padding-bottom: 30px;
+            h2 {
+                font-size: 1.6em;
+            }
+            h3 {
+                font-size: 1.2em;
+                font-weight: bold;
+            }
+        }
+        .footer {
+            position: relative;
+            font-size: 0.8em;
+            color: $medium;
+            background-color: $dark;
+            a {
+                color: $medium;
+                text-decoration: none;
+                &:hover {
+                    color: $light;
+                }
+            }
+            h4 {
+                color: $light;
+                padding-left: 40px;
+            }
+            .clear {
+                clear: both; 
+            }
+        }
+    }
+    &.paypal {
+        background: $light;
+        overflow: auto;
+        font-size: 20px;
+        color: $grey1;
+        font-family: 'Dosis', sans-serif;
+        
+        // simplegrid overrides
+        .grid {
+            max-width: 100%;
+            min-width: 0;
+        }
+        
+        a {
+            color: $brown;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        button {
+            background-color: $buttonRegister;
+            &.register {
+                display: block;
+            }
+            &.verify {
+                display: none;
+            }
+        }
+        .userResponse {
+            font-size: 1.2em;
+            font-weight: bold;
+            .green {
+                color: $buttonRegister;
+            }
+            .red {
+                color: $error;
+            }
+        }
+        .logo {
+            .theLogo {
+                text-indent: -10000px;
+                background: $logoBgIndex;
+                height: 65px;
+            }
+            .mBlend {
+                font-size: 0.8em;
+            }
+        }
+        .choose {
+            display: none;
+            margin-bottom: 30px;
+            clear: both;
+            .col-1-2 {
+                margin-bottom: 30px;
+            }
+        }
+        .footer {
+            padding: 20px 0 30px 0;
+            position: initial;
+        }
+        
+        .steps {
+            border-bottom: 1px solid $grey1;
+            .unchecked {
+                background: none;
+            }
+            .checked {
+                background: $checkMark;
+                background-position: 120px 5px;
+            }
+        }
+    }
+    &.sharedFile {
+        h1 {
+            color: $light !important;
+        }
+    }
+    // =======================================================================
+}
+label {
+    cursor: pointer;
+}
+button {
+    @include buttonMix($light);
+}
+input {
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-size: 1em;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid $brown;
+    &:focus {
+        background-color: $inputBGHover;
+    }
+    &[type="radio"] {
+        border: none;
+    }
+    &[type="checkbox"] {
+        border-radius: 0;
+    }
+}
+select {
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-size: 0.8em;
+    outline: none;
+    border: 1px solid $brown;
+}
+
+#editor { 
+    position: fixed;
+    top: 100px;
+    left: 50px;
+    bottom: 100px;
+    width: auto;
+    right: 50px;
+    z-index: 0;
+    border-radius: 10px;
+    border: 1px solid $light;
+    font-size: 0.8em;
+}
+
+// Overlay
+.overlay {
+    display: none;
+    position: fixed;
+    z-index: 10000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(50, 50, 50, 0.9);
+}
+.overlayContent {
+    display: none;
+    border-radius: 10px;
+    position: fixed;
+    z-index: 10001;
+    background-color: $light;
+    text-align: center;
+    top: 20%;
+    left: 10%;
+    right: 10%;
+    padding: 30px;
+    // Button stylings for overlay
+    .modalBtnGroup {
+        margin-top: 30px;
+        .col-1-2 {
+            padding-right: 0;
+        }
+        .col-1-3 {
+            margin-right: 10px;  
+        }
+        button {
+            @include buttonMix($light);
+            &.Yes, &.Ok, &.Save, &.Reset, &.Send, &.Share {
+                background-color: $buttonRegister;
+                &:hover {
+                    opacity: 0.5;
+                }
+            }
+            &.No, &.Cancel {
+                background-color: $buttonLogin;
+                &:hover {
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+    .modalCloser {
+        position: absolute;
+        top: -20px;
+        right: 0px;
+        padding: 10px;
+        font-size: 1.2em;
+        line-height: 20px;
+        cursor: pointer;
+        color: $dark;
+        background-color: $light;
+        border-radius: 5px;
+    }
+    // Profile settings
+    .adjustSettings {
+        text-align: left;
+        .col-1-2 {
+            padding: 10px 0;
+        }
+        input {
+            text-align: left;
+        }
+    }
+    // Modal on homepage
+    &.home, &.contactForm, &.faq {
+        top: 5%;
+        left: 5%;
+        right: 5%;
+        bottom: 5%;
+        overflow: auto;
+    }
+    &.contactForm {
+        text-align: left;
+        textarea {
+            height: 200px;
+            font-size: 1.1em;
+        }
+    }
+    &.sharedLinks {
+        .sharesContent {
+            word-wrap: break-word;
+        }
+    }
+}
+.loader {
+    display: block;
+    position: fixed;
+    z-index: 10000;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    background: rgba(50, 50, 50, 0.9);
+    color: $light;
+    font-size: 2em;
+    text-align: center;
+    p {
+        top: 30%;
+        position: relative;
+    }
+    @include loader(80px, 0 0 0 -40px, 50%, 50%, 10px);
+}
+// Popup help
+.popup {
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: $helpBG;
+    color: $light;
+    display: none;
+    z-index: 11000;
+    font-size: 0.9em;
+    p {
+        margin: 2px 0;
+    }
+}
+
+// Toolbar
+.toolbar {
+    display: none;
+    position: fixed;
+    width: 100%;
+    min-width: 490px;
+    top: 0;
+    left: 0;
+    padding: 5px 0;
+    background-color: $toolbarBG;
+    .icons {
+        button {
+            padding: 5px 10px 5px 35px;
+            margin-right: 10px;
+            border-radius: 5px;
+            position: relative;
+            border: none;
+            font-size: 1em;
+            &:hover {
+                opacity: 0.7;
+            }
+            &.saveBtn, &.buildBtn, &.cleanBtn {
+                @include loader(20px, -10px 0 0 -30px, 50%, 50%, 10px);
+            }
+            &.build {
+                background: $error url("../images/wrench.png") 5px 3px no-repeat;
+            }
+            &.run {
+                background: $buttonRegister url("../images/rocket.png") 5px 3px no-repeat;
+                visibility: hidden;
+            }
+            &.save {
+                background: $buttonBlue url("../images/cloud-upload.png") 5px 3px no-repeat;
+            }
+            &.saved {
+                background: $buttonBlue url("../images/cloud-check.png") 5px 3px no-repeat;
+            }
+            &.clean {
+                background: $medium url("../images/power.png") 5px 3px no-repeat;
+            }
+            &.build, &.run, &.save, &.saved, &.clean {
+                background-size: 20px;
+            }
+        }
+    }
+}
+
+// File editing and tabs
+.editFileName {
+    display: none;
+    margin: 76px 0 0 100px;
+    .tab {
+        background-color: $medium;
+        color: $veryDark;
+        padding: 2px 5px;
+        word-wrap: break-word;
+        float: left;
+        font-size: 1em;
+        height: 25px;
+        padding-right: 30px;
+        border-radius: 5px 5px 0 0;
+        border-width: 1px 1px 0 1px;
+        border-style: solid;
+        border-color: $light;
+        .close {
+            display: none;
+            height: 15px;
+            padding: 3px;
+            position: absolute;
+            top: 3px;
+            right: 3px;
+            line-height: 1px;
+            border: 1px solid $dark;
+            border-radius: 2px;
+            color: $dark;
+            background-color: $light;
+        }
+        &:hover {
+            position: relative;
+            background-color: $dark;
+            color: $light;
+            bottom: 6px;
+            height: 30px;
+            z-index: 1;
+            border-color: $light;
+            // Only allow closing the current file
+            .close {
+                display: none;
+            }
+        }
+        &.selected {
+            position: relative;
+            background-color: $brown;
+            color: $light;
+            bottom: 6px;
+            height: 31px;
+            line-height: 28px;
+            font-size: 1.1em;
+            z-index: 1;
+            border-color: $light;
+            &:hover {
+                .close {
+                    display: block;
+                }
+            }
+            // Only allow closing the current file
+            .close {
+                &:hover {
+                    cursor: pointer;
+                    color: $light;
+                    background-color: $error;
+                }
+            }
+        }
+    }
+}
+
+// Log window
+.buildLog {
+    position: fixed;
+    display: none;
+    width: 300px;
+    height: 100%;
+    top: 0;
+    right: -260px;
+    padding: 12px;
+    background-color: $light;
+    border-left: 2px solid $dark;
+    z-index: 20;
+    cursor: pointer;
+    white-space: -webkit-pre-wrap; /* Newer versions of Chrome/Safari*/
+    word-break: break-all;
+    white-space: normal;
+    &:hover {
+        background-color: $toolbarBG;
+    }
+    h2 {
+        position: relative;
+        transform: rotate (0deg);
+        &.transform {
+            transform: rotate(-90deg);
+            left: -117px;
+            top: -20px;
+        }
+    }
+    .closer {
+        position: absolute;
+        z-index: 100;
+        top: 0;
+        left: 0;
+        padding: 10px;
+        .in, .out {
+            display: none;
+        }
+    }
+    .logError {
+        display: none;
+        color: $error;
+    }
+    .logSuccess {
+        display: none;
+        color: $buttonRegister;
+    }
+    .logs {
+      p {
+          display: none;
+      }
+    }
+}
+
+// Left nav menu
+.menu {
+    position: fixed;
+    display: block;
+    width: 300px;
+    height: 100%;
+    padding: 12px 40px 12px 12px;
+    background-color: $light;
+    border-right: 2px solid $dark;
+    z-index: 20;
+    cursor: pointer;
+    overflow-y: auto;
+    top: 0;
+    &:hover {
+        background-color: $toolbarBG;
+    }
+    h2 {
+        position: relative;
+        cursor: default;
+        margin-top: 0;
+        &.transform {
+            transform: rotate(90deg);
+            //right: -147px;
+            position: fixed;
+            top: 80px;
+            left: -22px;
+            cursor: pointer;
+        }
+    }
+    h3 {
+        z-index: 100;
+        margin-bottom: 0;
+    }
+    .member {
+        font-size: 0.8em;
+    }
+    // Logout
+    .controls {
+        display: none;
+        a {
+            font-size: 0.9em;
+            cursor: pointer;
+            color: $buttonBlue;
+            text-decoration: underline;
+            padding: 0 10px;
+            &:hover {
+                text-decoration: none;
+                color: $error;
+            }
+            &.settings, &.shares {
+                display: none;
+            }
+        }
+        span {
+            display: none;
+            padding: 0 10px;
+        }
+    }
+    .closer {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 10px;
+        z-index: 100;
+        .in, .out {
+            display: none;
+        }
+    }
+    .col-1-1, .col-1-2 {
+        padding-right: 0;
+    }
+    button {
+        @include buttonMix($light);
+        &.login {
+            background-color: $buttonLogin;
+            padding-left: 30px;
+            background: $buttonLogin url("../images/lock.png") 8px 7px no-repeat;
+            background-size: 20px;
+            &:hover {
+                opacity: 0.5;
+            }
+        }
+        &.register {
+            background-color: $buttonRegister;
+            padding-left: 30px;
+            background: $buttonRegister url("../images/user.png") 8px 7px no-repeat;
+            background-size: 20px;
+            &:hover {
+                opacity: 0.5;
+            }
+        }
+    }
+    // Delete btn
+    .delete {
+        display: none;
+        height: 15px;
+        position: absolute;
+        top: 5px;
+        right: 3px;
+        padding: 0 5px;
+        line-height: 10px;
+        border: 1px solid $dark;
+        border-radius: 2px;
+        color: $dark;
+        &:hover {
+            color: $light;
+            background-color: $error;
+        }
+    }
+    // Zip button
+    .zip {
+        background: $zip;
+    }
+    // Share button
+    .share {
+        background: $share;
+    }
+    .zip, .share {
+        display: none;
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        top: 5px;
+        left: 2px;
+        background-size: cover;
+    }
+    
+    // Hide by default and only show once logged in
+    .projects, .loggedIn, .files, .member {
+        display: none;
+    }
+    .projects {
+        @include loader(30px, 72px 0 0 114px, 0, 0, 13px);
+        margin-top: 20px;
+        clear: both;
+    }
+    .projectList {
+        ul {
+            li {
+                cursor: pointer;
+                position: relative;
+                padding: 5px 5px 5px 30px;
+                margin: 5px 0 5px -40px;
+                list-style-type: none;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                &:hover {
+                    text-decoration: underline;
+                    background-color: $grey2;
+                    .delete, .zip {
+                        display: block;
+                    }
+                }
+                // Input styling for when editing project name
+                input {
+                    width: 90%;
+                }
+            }
+        }
+    }
+    .fileList {
+        ul {
+            li {
+                position: relative;
+                display: block;
+                cursor: pointer;
+                color: $fileColor;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                margin: 5px 0 5px -40px;
+                padding: 5px 5px 5px 30px;
+
+                &:hover {
+                    color: $fileHover;
+                    text-decoration: underline;
+                    background-color: $grey2;
+                    .delete, .share {
+                        display: block;
+                    }
+                }
+                &.edit {
+                    color: $fileColorEdit;
+                    cursor: default;
+                }
+                // Input styling for when editing file name
+                input {
+                    width: 90%;
+                }
+            }
+        }
+    }
+
+    .logo {
+        .theLogo {
+            text-indent: -10000px;
+            background: $logoBg;
+            background-size: cover;
+            height: 60px;
+        }
+        .mBlend {
+            font-size: 0.8em;
+        }
+        a {
+            color: $buttonBlue;
+            text-decoration: none;
+            font-size: 0.8em;
+            &:hover {
+                color: $error;
+                text-decoration: underline;
+            }
+        }
+    }
+  
+    .newFile {
+        padding-bottom: 20px;
+    }
+}
+
+.error {
+    .thankyou, .loginError, .registerError, .validateEmail, .projectError, .unpwError {
+        display: none;
+        border: 1px solid $error;
+        margin-top: 20px;
+        border-radius: 5px;
+        background-color: $errorBg;
+    }
+    .thankyou {
+        border: 1px solid $dark;
+        background-color: $inputBGHover;
+    }
+}
+
+.footer {
+    padding: 5px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: $light;
+}
+
+// Generic classes
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+// ==
+// Small screen styling overrides
+// ==
+@media handheld, only screen and (max-width: 767px) {
+    // Tab styling
+    .editFileName {
+        .tab {
+            height: 34px;
+            width: 20%;
+            overflow: hidden;
+            &.selected, &:hover {
+                height: 40px;
+            }
+        }
+    }
+    .overlayContent {
+        left: 0;
+        right: 0;
+        top: 10%;
+        padding: 10px;
+        .col-1-5 {
+            width: 20%;
+            float: left;
+        }
+        .sharesContent, .adjustSettings {
+            clear: both;
+        }
+    }
+    .helpAlert {
+        left: 5%;
+        right: 5%;
+    }
+    .member {
+        display: none;
+    }
+}
+
+// ===============================================================================
+// Mobile device styling
+// ===============================================================================
+.mobile {
+    font-size: 26px;
+    .logo {
+        .theLogo {
+            height: 100px;
+        }
+        .mblend {
+            display: none;
+        }
+    }
+    .overlayContent {
+        left: 5%;
+        right: 5%;
+        font-size: 1.8em;
+        .modalCloser {
+            display: none;
+        }
+    }
+    // Settings
+    #registeredEmail {
+        width: 100%;
+    }
+    // Log
+    .buildLog {
+        width: 340px;
+    }
+    // Menu stuff
+    .menu {
+        width: 340px;
+        padding-right: 20px;
+        &.gap {
+            padding-right: 80px;
+            h2 {
+                &.transform {
+                    left: 0;
+                }
+            }
+        }
+        // login
+        .loginBox {
+            input {
+                margin-bottom: 20px;
+                width: 100%;
+            }
+            button {
+                margin-bottom: 20px;
+                width: 100%;
+            }
+            .col-1-1 {
+                padding-right: 20px;
+            }
+            .col-1-2 {
+                width: 100%;
+            }
+        }
+        // Logged in title and a href links
+        .loggedIn, .controls {
+            font-size: 1.4em;
+        }
+        // Always display zip downloads and delete to make it easier to click on 
+        .zip, .delete, .share {
+            display: block;
+        }
+        .delete {
+            height: auto;
+            line-height: 1.2em;
+        }
+        // Project container
+        .projectList {
+            ul {
+                li {
+                    padding-left: 40px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        // Files container
+        .files {
+            margin-top: 20px;
+        }
+        .newFile {
+            padding-bottom: 30px;
+        }
+        .fileList {
+            ul {
+                li {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        .links {
+            font-size: 1.5em;
+            div {
+                //margin-bottom: 20px;
+            }
+        }
+        .tab {
+            &.selected {
+                .close {
+                    display: block;
+                    height: 30px;
+                }
+            }
+        }
+        .helpAlert {
+            left: 5%;
+            right: 5%;
+        }
+        .member {
+            display: none;
+        }
+    }
+    #editor {
+        left: 80px;
+        right: 80px;
+    }
+}
